@@ -16,7 +16,7 @@ const Header = () => (
       <div class="navbar-brand">
         <a class="navbar-item" href="/">
           <img
-            src="/img/beaker-only.png"
+            src="/static/img/beaker-only.png"
             alt="Penn Labs"
             height="100px"
             width="auto"
@@ -47,9 +47,6 @@ const Header = () => (
           </a>
           <a class="navbar-item" href="https://medium.com/@pennappslabs">
             Blog
-          </a>
-          <a class="navbar-item" href="/apply">
-            <strong>Apply</strong>
           </a>
         </div>
       </div>

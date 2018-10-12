@@ -39,13 +39,13 @@ const CurrentProducts = (props) => (
       />
       <Product
         url="http://pennbasics.com/"
-        img="/img/PennBasics.png"
+        img="/static/img/PennBasics.png"
         title="Penn Basics"
         desc="PennBasics is a one-stop shop for the basics of living at Penn. It strives to make students' lives easier at Penn so they can focus on what matters. PennBasics aggregates essential data on dining, laundry, and study spaces, and tailors the dashboard to your preferences."
       />
       <Product
         url="https://penncfa.com/accounts/login/?next=/"
-        img="/img/CFA-logo.png"
+        img="/static/img/CFA-logo.png"
         title="Common Funding Application"
         desc="The Common Funding Application allows student groups across the University to easily request funding for their events from one or more funding sources on campus. On the other side of the process, funding groups have the ability to view what groups have applied for funding from them and make approval/denials."
       />
@@ -53,19 +53,19 @@ const CurrentProducts = (props) => (
     <div class="column">
       <Product
         url="https://penncoursealert.com/"
-        img="/img/PCA.png"
+        img="/static/img/PCA.png"
         title="Penn Course Alert"
         desc="Penn Course Alert was built to help students get into their desired courses and eliminate the stress behind guessing when it would open. PCA provides high quality, immediate notification via text and email for course availabilities."
       />
       <Product
         url=""
-        img="/img/PennMobile.png"
+        img="/static/img/PennMobile.png"
         title="Penn Mobile"
         desc= "Penn Mobile App is the university's first official mobile app. On iOS and Android, PennMobile provides live dining hall menus and hours, course and faculty search, live bus routes, popular sources of campus-news and school support numbers."
       />
       <Product
         url=""
-        img="/img/OHQ-logo.png"
+        img="/static/img/OHQ-logo.png"
         title="Office Hours Queue"
         desc="Coming soon, Office Hours Queue will make office hours easier for both students and teaching assistants. Students: get the one-on-one help that you need, as quickly as possible. TAs: manage your queue, locate students faster, and offer more targeted help."
       />

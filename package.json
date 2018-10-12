@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "isomorphic-unfetch": "^2.1.1",
+    "mongoose": "^5.3.3",
     "next": "^6.1.1",
     "node": "^10.11.0",
     "react": "^16.4.2",
