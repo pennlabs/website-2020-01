@@ -2,14 +2,15 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 const getMembers = () => {
-
+  return [];
 }
 
 const Team = (props) => (
   <div>
     <Header />
+    <section class="section">
     <div class="container">
-      <h3 class="title is-3" style="margin-bottom:0.5rem">
+      <h3 class="title is-3" style={{marginBottom:"0.5rem"}}>
         Meet the Team
       </h3>
       <p>
@@ -19,6 +20,7 @@ const Team = (props) => (
     <br/><br/>
     <Members members={getMembers()}/>
     </div>
+  </section>
     <Footer />
   </div>
 );
