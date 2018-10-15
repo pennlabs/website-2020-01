@@ -1,5 +1,5 @@
 # pennlabs.org
-Front end for Labs REST API built using React and Next.
+Website for Penn Labs available [here](https://pennlabs.org). Front-end for Platform API built using React and Next.
 
 ## Dependencies
 - Next.js
