@@ -14,7 +14,7 @@ const About = (props) => (
         <div class="columns  ">
           <div class="column is-half">
             <Box titleChild={<h3 style={{paddingTop:"0.5rem", lineHeight:0, fontSize:"2rem", fontWeight:500}}><strong style={{color: "#209CEE"}}>100,000+ </strong>total users</h3>} desc="across over 10 student-developed applications." />
-            <Box titleChild={<h3 style={{paddingTop:"0.5rem", lineHeight:0, fontSize:"2rem", fontWeight:500}}><strong style={{color: "#209CEE"}}>60+ + </strong> GitHub contributors</h3>} desc="building high-quality open source software." />
+            <Box titleChild={<h3 style={{paddingTop:"0.5rem", lineHeight:0, fontSize:"2rem", fontWeight:500}}><strong style={{color: "#209CEE"}}>60+ </strong> GitHub contributors</h3>} desc="building high-quality open source software." />
           </div>
           <div class="column is-half">
             <Box titleChild={<h3 style={{paddingTop:"0.5rem", lineHeight:0, fontSize:"2rem", fontWeight:500}}><strong style={{color: "#209CEE"}}>7+ </strong> years</h3>} desc="of supporting the Penn community at large." />

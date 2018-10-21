@@ -24,30 +24,26 @@ const Guides = (props) => (
           </div>
           <p>We're dedicated to giving back to the community - here are some guides and tutorials we've written to help everybody build products like ours.</p>
           <br/>
-          <Table />
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Guide</th>
+                <th>Link</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Public API Documentation </td>
+                <td><a href="/api">Penn Labs</a></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
         <div class="column"> </div>
       </div>
       </div>
     <Footer />
   </div>
-);
-
-const Table = (props) => (
-  <table class="table">
-    <thead>
-      <tr>
-        <th>Guide</th>
-        <th>Link</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Public API Documentation </td>
-        <td><a href="/api">Penn Labs</a></td>
-      </tr>
-    </tbody>
-  </table>
 );
 
 export default Guides;
