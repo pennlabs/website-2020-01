@@ -1,7 +1,7 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-import CurrentProducts from './products-components/currentproducts';
+import CurrentProducts from './products_sections/currentProducts';
 
 const Products = (props) => (
   <div>

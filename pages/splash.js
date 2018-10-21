@@ -1,11 +1,11 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-import Products from './splash-components/products'
-import Intro from './splash-components/intro';
-import About from './splash-components/about'
-import News from './splash-components/news'
-import Contact from './splash-components/contact'
+import Products from './splash_sections/products'
+import Intro from './splash_sections/intro';
+import About from './splash_sections/about'
+import News from './splash_sections/news'
+import Contact from './splash_sections/contact'
 
 const Splash = (props) => (
   <div>

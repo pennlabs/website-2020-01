@@ -1,6 +1,6 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import CurrentProducts from './api-components/currentproductsAPI'
+import CurrentProducts from './api_sections/currentProductsAPI'
 
 const API = (props) => (
   <div>
