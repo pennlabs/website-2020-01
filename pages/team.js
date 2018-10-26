@@ -1,15 +1,15 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Members from './team_sections/members';
-import react, { Component } from 'react'
+
 import fetch from 'isomorphic-fetch';
 
 const Team = (props) => (
   <div>
     <Header />
-    <section class="section">
-      <div class="container">
-        <h3 class="title is-3" style={{marginBottom:"0.5rem"}}>
+    <section className="section">
+      <div className="container">
+        <h3 className="title is-3" style={{marginBottom:"0.5rem"}}>
           Meet the Team
         </h3>
         <p>

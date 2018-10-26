@@ -12,9 +12,9 @@ const Header = () => (
       <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     </head>
 
-    <nav class="navbar is-info" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="/">
+    <nav className="navbar is-info" role="navigation" aria-label="main navigation">
+      <div className="navbar-brand">
+        <a className="navbar-item" href="/">
           <img
             src="/static/img/beaker-only.png"
             alt="Penn Labs"
@@ -23,29 +23,29 @@ const Header = () => (
           />
         </a>
 
-        <div class="button navbar-burger is-info" data-target="navMenu">
+        <div className="button navbar-burger is-info" data-target="navMenu">
           <span></span>
           <span></span>
           <span></span>
         </div>
       </div>
 
-      <div class="navbar-menu" id="navMenu">
-        <div class="navbar-start"></div>
-        <div class="navbar-end">
-          <a class="navbar-item" href="/team">
+      <div className="navbar-menu" id="navMenu">
+        <div className="navbar-start"></div>
+        <div className="navbar-end">
+          <a className="navbar-item" href="/team">
             Team
           </a>
-          <a class="navbar-item" href="/products">
+          <a className="navbar-item" href="/products">
             Products
           </a>
-          <a class="navbar-item" href="/api">
+          <a className="navbar-item" href="/api">
             API
           </a>
-          <a class="navbar-item" href="/guides">
+          <a className="navbar-item" href="/guides">
             Guides
           </a>
-          <a class="navbar-item" href="https://medium.com/@pennappslabs">
+          <a className="navbar-item" href="https://medium.com/@pennappslabs">
             Blog
           </a>
         </div>

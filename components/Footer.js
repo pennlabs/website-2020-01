@@ -10,17 +10,17 @@ const styles = {
 
 const Footer = (props) => (
   <div>
-    <footer class="footer" style={styles}>
-      <div class="container">
-        <div class="content has-text-centered">
+    <footer className="footer" style={styles}>
+      <div className="container">
+        <div className="content has-text-centered">
           <p style={{fontSize: "0.85rem"}}>
-            Made with <span class="icon is-small" style={{color:"#F56F71"}}><i class="fa fa-heart"></i></span> by Penn Labs
+            Made with <span className="icon is-small" style={{color:"#F56F71"}}><i className="fa fa-heart"></i></span> by Penn Labs
           </p>
           <a href="https://github.com/pennlabs/" style={{marginRight:"1rem"}}>
-          <span><i class="fab fa-github"></i></span>
+          <span><i className="fab fa-github"></i></span>
         </a>
         <a href="https://www.facebook.com/labsatpenn/">
-        <span><i class="fab fa-facebook-square"></i></span>
+        <span><i className="fab fa-facebook-square"></i></span>
       </a>
     </div>
   </div>
