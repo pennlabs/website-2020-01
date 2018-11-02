@@ -3,7 +3,7 @@ const Members = (props) => (
     <div className="column is-one-third">
       {props.members.map((member) =>
         (<a href={"/member/?name=" + member.user.name}>
-        <div classNameName="card">
+        <div className="card">
           <div className="card-image">
             <figure className="image is-4by3">
               <img

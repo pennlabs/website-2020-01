@@ -1,15 +1,15 @@
 const ProductBox = (props) => (
   <div>
-    <div class="box" style={{marginBottom: "1.5rem"}}>
-      <div class="card-content">
-        <div class="level" style={{marginBottom:"0.5rem"}}>
-          <div class="level-left">
-            <div class="level-item">
-              <p class="image is-48x48">
+    <div className="box" style={{marginBottom: "1.5rem"}}>
+      <div className="card-content">
+        <div className="level" style={{marginBottom:"0.5rem"}}>
+          <div className="level-left">
+            <div className="level-item">
+              <p className="image is-48x48">
                 <img src={props.img} />
               </p>
             </div>
-            <div class="level-item">
+            <div className="level-item">
               <h1 style={{fontWeight:500, fontSize:"1.8rem"}}>
                 {props.title}
               </h1>

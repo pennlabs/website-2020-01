@@ -1,16 +1,16 @@
 const Box = (props) => (
-  <div class="box" style={{marginBottom: "1.5rem"}}>
-    <div class="card-content">
-      <div class="level">
-        <div class="level-left">
-          <div class="level-item">
+  <div className="box" style={{marginBottom: "1.5rem"}}>
+    <div className="card-content">
+      <div className="level">
+        <div className="level-left">
+          <div className="level-item">
             {props.img ? (
-              <p class={props.imgClass}>
+              <p className={props.imgclassName}>
                 <img src={props.img} />
               </p>) : <div></div>}
             </div>
-            <div class="level-item">
-              <div class="content">
+            <div className="level-item">
+              <div className="content">
                 {props.titleChild ? props.titleChild : (
                   <h3 style={props.titleStyle}>
                     {props.title}

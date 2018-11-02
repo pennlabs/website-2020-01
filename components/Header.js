@@ -45,6 +45,9 @@ const Header = () => (
           <a className="navbar-item" href="/guides">
             Guides
           </a>
+          <a className="navbar-item" href="/documentation">
+            Documentation
+          </a>
           <a className="navbar-item" href="https://medium.com/@pennappslabs">
             Blog
           </a>

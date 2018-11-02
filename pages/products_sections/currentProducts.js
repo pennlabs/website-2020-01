@@ -2,15 +2,15 @@ import ProductBox from '../../components/ProductBox';
 
 const CurrentProducts = (props) => (
   <div>
-    <div class="tabs">
+    <div className="tabs">
       <ul>
-        <li class="is-active"><a>Current Products</a></li>
+        <li className="is-active"><a>Current Products</a></li>
         {/* <li><a href="/product-api">APIs</a></li>
         <li><a href="/legacy">Legacy</a></li> */}
       </ul>
     </div>
-    <div class="columns">
-      <div class="column">
+    <div className="columns">
+      <div className="column">
         <a href="https://penncoursereview.com/">
         <ProductBox
           img="/static/img/PCR.png"
@@ -33,7 +33,7 @@ const CurrentProducts = (props) => (
         />
         </a>
       </div>
-      <div class="column">
+      <div className="column">
         <a href="https://penncoursealert.com/">
         <ProductBox
           img="/static/img/PCA.png"

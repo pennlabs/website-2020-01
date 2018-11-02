@@ -5,9 +5,9 @@ import CurrentProducts from './api_sections/currentProductsAPI'
 const API = (props) => (
   <div>
     <Header />
-    <section class="section">
-      <div class="container">
-        <h3 class="title is-3" style={{marginBottom:"0.5rem"}}>
+    <section className="section">
+      <div className="container">
+        <h3 className="title is-3" style={{marginBottom:"0.5rem"}}>
           Penn Labs API
         </h3>
         <p>
