@@ -1,3 +1,4 @@
+import { Spring } from 'react-spring';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
@@ -10,7 +11,9 @@ import Contact from './splash_sections/contact';
 const Splash = (props) => (
   <div>
     <Header />
-    <Intro />
+    <Spring from={{ opacity: 0 }} to={{ opacity: 1 }} delay={100}>
+      {props => <Intro style={props} />}
+    </Spring>
     <Products />
     <About />
     <News />
