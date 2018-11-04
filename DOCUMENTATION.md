@@ -50,7 +50,7 @@ Structure:
 
   /static - images used on the website (needs to be updated with new member
     images OR the instead use url's provided by members)
-    
+    s
   server.js - had to make this to parse url for team member pages, routes
     /member/?name=[member] to the appropriate page, otherwise just follows path.
     right now query is the first name of the member, but might want to change
