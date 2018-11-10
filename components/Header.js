@@ -39,9 +39,6 @@ const Header = () => (
           <a className="navbar-item" href="/products">
             Products
           </a>
-          <a className="navbar-item" href="/api">
-            API
-          </a>
           <a className="navbar-item" href="/guides">
             Guides
           </a>

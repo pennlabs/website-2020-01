@@ -7,18 +7,15 @@ const Contact = (props) => (
           <div className="level-left">
             <div className="level-item">
             <h1 className="title" style={{fontSize:"2.8rem"}}>
-             Get In Touch:
+             Contact
             </h1>
           </div>
-            <div className="level-item">
-              <p className="image">
-                <img src="/static/img/undraw_mailbox.png" style={{height:"10rem", width:"auto"}}/>
-              </p>
-            </div>
           </div>
         </div>
         <p>
-          We build tools for Penn students. Your feedback as users means everything to us. <br/> Is there something we can do better? Want to learn more about Labs? Submit bug fixes, new feature suggestions, questions, and comments here!
+        Your feedback as users means everything to us. <br/> Is there something we can do better? Want to learn more about Labs?
+        <br/>
+        <br/>Submit bug fixes, new feature suggestions, questions, and comments here!
         </p>
         <br/>
         <div style={{width:"60%"}}>
