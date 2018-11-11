@@ -1,3 +1,4 @@
+import { Trail } from 'react-spring'
 import Box from '../../components/Box';
 
 const About = (props) => (
