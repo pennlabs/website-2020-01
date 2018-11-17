@@ -3,7 +3,7 @@ import React from 'react';
 
 const Square = posed.div({
   idle: { scale: 1 },
-  hovered: { scale: 1.1 }
+  hovered: { scale: 1.05 }
 });
 
 class ProductCard extends React.Component {
