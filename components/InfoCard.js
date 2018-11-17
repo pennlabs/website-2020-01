@@ -6,7 +6,7 @@ const Square = posed.div({
   hovered: { scale: 1.05 }
 });
 
-class Card extends React.Component {
+class InfoCard extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -41,4 +41,4 @@ class Card extends React.Component {
       </div>)}
     }
 
-export default Card;
+export default InfoCard;

@@ -21,7 +21,6 @@ return (
         <Bio member={props.member} />
       </div>
     </section>
-
     <Footer />
   </div>
 );

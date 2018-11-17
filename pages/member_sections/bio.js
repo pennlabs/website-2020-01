@@ -1,4 +1,3 @@
-
 const Bio = (props) => (
   <div className="columns">
     <div className="column is-5">
