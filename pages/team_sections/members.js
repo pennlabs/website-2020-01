@@ -1,3 +1,5 @@
+
+
 const Members = (props) => (
   <div className="columns is-multiline">
     <div className="column is-one-third">
@@ -28,8 +30,7 @@ const Members = (props) => (
             </div>
           </div>
         </div>
-      </a>)
-    )}
+      </a>))}
   </div>
 </div>
 );

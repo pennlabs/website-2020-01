@@ -1,6 +1,6 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Members from './team_sections/members';
+import MemberCard from '../components/MemberCard'
 
 import fetch from 'isomorphic-fetch';
 
@@ -17,7 +17,11 @@ const Team = (props) => (
           of students use. Also check out our <a href="/alumni">Alumni</a>!
         </p>
         <br/><br/>
-        <Members members={props.members} />
+        <div className="columns is-multiline">
+        {props.members.map((member)=>(
+          <MemberCard member={member} />
+        ))}
+        </div>
     </div>
   </section>
   <Footer />
