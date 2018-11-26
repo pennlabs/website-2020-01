@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Spring, Keyframes, config } from 'react-spring'
 
 const Header = () => (
   <div>
@@ -15,12 +16,11 @@ const Header = () => (
     <nav className="navbar is-info" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
         <a className="navbar-item" href="/">
-          <img
-            src="/static/img/beaker-only.png"
-            alt="Penn Labs"
-            height="100px"
-            width="auto"
-          />
+        <img
+          src="/static/img/beaker-only.png"
+          alt="Penn Labs"
+          width="auto"
+          height="100" />
         </a>
 
         <div className="button navbar-burger is-info" data-target="navMenu">
@@ -38,9 +38,6 @@ const Header = () => (
           </a>
           <a className="navbar-item" href="/products">
             Products
-          </a>
-          <a className="navbar-item" href="/api">
-            API
           </a>
           <a className="navbar-item" href="/guides">
             Guides

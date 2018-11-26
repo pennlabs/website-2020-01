@@ -5,7 +5,6 @@ import fetch from 'isomorphic-fetch';
 
 
 const Member = (props) => {
-  console.log(props);
 return (
   <div>
     <Header />
@@ -19,21 +18,21 @@ return (
         </a>
         <br/><br/>
         <br/><br/>
-
+        <Bio member={props.member} />
       </div>
     </section>
-    <Bio member={props.member}/>
     <Footer />
   </div>
 );
 }
 
-Member.getInitialProps = async({ query }) => {
-  const res = await fetch('http://platform.pennlabs.org/api/members/?format=json')
+Member.getInitialProps = async(query) => {
+  console.log(query.query.name);
+  const res = await fetch('http://platform.pennlabs.org/org/members/?format=json')
   const members = await res.json()
   var member;
   members.forEach((item) => {
-    if(item.user.name === query.name) {
+    if(item.url === query.query.name) {
       member = item;
     }
   });
