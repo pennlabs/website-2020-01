@@ -1,9 +1,8 @@
-
 const Bio = (props) => (
   <div className="columns">
     <div className="column is-5">
       <figure className="image is-4by3">
-        <img src={""} style={{maxWidth:"100%", objectFit: "cover"}} alt={props.member.user.name} />
+        <img src={props.member.photo} style={{maxWidth:"100%", objectFit: "cover"}} alt={props.member.user.name} />
       </figure>
     </div>
     <div className="column">
