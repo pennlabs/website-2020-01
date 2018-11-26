@@ -11,7 +11,7 @@ const News = (props) => (
         <p style={{color: "azure"}}> Coming soon! </p>
       </div>
     </section>
-</div>
+  </div>
 );
 
 export default News;

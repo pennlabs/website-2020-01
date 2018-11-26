@@ -1,5 +1,4 @@
-import { Spring, Transition, config } from 'react-spring';
-
+import { Spring, config } from 'react-spring';
 
 const Intro = (props) => (
   <div className="section">

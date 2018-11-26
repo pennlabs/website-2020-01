@@ -1,21 +1,16 @@
-
 const Contact = (props) => (
   <div>
     <section className="section">
       <div className="container">
-        <div className="levels">
-          <div className="level-left">
-            <div className="level-item">
-            <h1 className="title" style={{fontSize:"2.8rem"}}>
-             Contact
-            </h1>
-          </div>
-          </div>
-        </div>
+        <h1 className="title" style={{fontSize:"2.8rem"}}>
+          Contact:
+        </h1>
+        <h2 className="subtitle" style={{fontSize:"2rem"}}>
+          Your feedback as users means everything to us. 
+        </h2>
         <p>
-        Your feedback as users means everything to us. <br/> Is there something we can do better? Want to learn more about Labs?
-        <br/>
-        <br/>Submit bug fixes, new feature suggestions, questions, and comments here!
+          Is there something we can do better? Want to learn more about Labs? <br />
+          Submit bug fixes, new feature suggestions, questions, and comments here!
         </p>
         <br/>
         <div style={{width:"60%"}}>

@@ -15,6 +15,7 @@ const Index = (props) => (
     <About />
     <News />
     <Contact />
+    <Footer />
   </div>
 );
 
