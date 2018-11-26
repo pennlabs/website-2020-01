@@ -17,7 +17,6 @@ return (
           Back to team
         </a>
         <br/><br/>
-        <br/><br/>
         <Bio member={props.member} />
       </div>
     </section>
@@ -31,13 +30,15 @@ Member.getInitialProps = async(query) => {
   const res = await fetch('http://platform.pennlabs.org/org/members/?format=json')
   const members = await res.json()
   var member;
+
   members.forEach((item) => {
     if(item.url === query.query.name) {
       member = item;
     }
   });
+
   if(member) return { member };
-  else return { };
+  else return {};
 }
 
 export default Member;

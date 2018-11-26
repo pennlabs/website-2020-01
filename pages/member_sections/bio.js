@@ -1,14 +1,14 @@
 const Bio = (props) => (
   <div className="columns">
     <div className="column is-5">
-      <figure className="image is-4by3">
+      <figure className="image">
         <img src={props.member.photo} style={{maxWidth:"100%", objectFit: "cover"}} alt={props.member.user.name} />
       </figure>
     </div>
     <div className="column">
       <div className="content">
         <div className="card-content">
-          <h1 style={{fontWeight:500, fontSize:"1.8rem"}}>
+          <h1 style={{fontWeight:500, fontSize:"1.8rem", fontWeight: "800"}}>
             {props.member.user.name}
           </h1>
           <h4 style={{fontSize:"1.2rem", fontStyle: "italic"}}>
@@ -17,20 +17,19 @@ const Bio = (props) => (
           <p>
             {props.member.bio}
           </p>
-          <br/>
           <nav className="level is-mobile">
             <div className="level-left">
               {props.member.github ? (
-                <a className="level-item" href="{{github}}">
+                <a className="level-item" href={props.member.github}>
                   <span className="icon"><i className="fab fa-github"></i></span>
                 </a>) : <div></div> }
               {props.member.linkedin ? (
-                <a className="level-item" href="{{linkedin}}">
+                <a className="level-item" href={props.member.linkedin}>
                   <span className="icon"><i className="fab fa-linkedin"></i></span>
                 </a>
               ) : <div></div>}
               {props.member.website ? (
-                <a className="level-item" href="{{website}}">
+                <a className="level-item" href={props.member.website}>
                   <span className="icon"><i className="fas fa-user"></i></span>
                 </a>) : <div></div>}
             </div>
