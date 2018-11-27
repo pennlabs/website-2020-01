@@ -39,11 +39,8 @@ const Header = () => (
           <a className="navbar-item" href="/products">
             Products
           </a>
-          <a className="navbar-item" href="/guides">
-            Guides
-          </a>
-          <a className="navbar-item" href="/documentation">
-            Documentation
+          <a className="navbar-item" href="/resources">
+            Resources
           </a>
           <a className="navbar-item" href="https://medium.com/@pennappslabs">
             Blog
