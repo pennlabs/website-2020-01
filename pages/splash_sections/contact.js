@@ -2,11 +2,11 @@ const Contact = (props) => (
   <div>
     <section className="section">
       <div className="container">
-        <h1 className="title" style={{fontSize:"2.8rem"}}>
+        <h1 className="title has-text-weight-bold" style={{fontSize:"2.8rem"}}>
           Contact:
         </h1>
         <h2 className="subtitle" style={{fontSize:"2rem"}}>
-          Your feedback as users means everything to us. 
+          Your feedback means everything to us. 
         </h2>
         <p>
           Is there something we can do better? Want to learn more about Labs? <br />
@@ -41,7 +41,7 @@ const Contact = (props) => (
             </div>
             <div className="field" style={{width:"100%"}}>
               <div className="control clear" style={{textAlign:"left"}}>
-                <button className="button is-medium">
+                <button className="button is-medium is-light">
                   Send
                 </button>
               </div>
