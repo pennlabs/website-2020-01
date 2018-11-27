@@ -33,7 +33,7 @@ class MemberCard extends React.Component {
                 </figure>
               </div>
               <div className="card-content">
-                <h1 style={{fontWeight:500, fontSize:"1.5rem", marginBottom: "1rem"}}>
+                <h1 class="has-text-weight-bold" style={{fontWeight:500, fontSize:"1.5rem", marginBottom: "1rem"}}>
                   {this.props.member.user.name}
                 </h1>
                 <div className="tags">

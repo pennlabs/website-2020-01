@@ -4,7 +4,7 @@ const Products = (props) => (
   <div>
   <section className="section" style={{backgroundColor: "#209CEE", color:"azure"}}>
     <div className="container">
-      <h1 className="title" style={{color: "azure", fontSize:"2.8rem"}}>
+      <h1 className="title has-text-weight-bold" style={{color: "azure", fontSize:"2.8rem"}}>
         Featured Products:
       </h1>
       <h2 className="subtitle" style={{fontSize:"2rem"}}>

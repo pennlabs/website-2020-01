@@ -2,7 +2,7 @@ const News = (props) => (
   <div>
     <section className="section" style={{backgroundColor: "#209CEE", color:"azure"}}>
       <div className="container">
-        <h1 className="title" style={{fontSize:"2.8rem", color: "azure"}}>
+        <h1 className="title has-text-weight-bold" style={{fontSize:"2.8rem", color: "azure"}}>
           Product News:
         </h1>
         <h2 className="subtitle" style={{fontSize:"2rem"}}>
