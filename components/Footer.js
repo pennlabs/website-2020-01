@@ -4,7 +4,6 @@ const styles = {
     right: 0,
     bottom: 0,
     left: 0,
-    paddingBottom: "2rem",
     height: "8rem",
 }
 
@@ -14,7 +13,7 @@ const Footer = (props) => (
       <div className="container">
         <div className="content has-text-centered">
           <p style={{fontSize: "0.85rem"}}>
-            Made with <span className="icon is-small" style={{color:"#F56F71"}}><i className="fa fa-heart"></i></span> by Penn Labs
+            Made with <span className="icon is-small" style={{color:"#F56F71"}}><i className="fa fa-heart"></i></span> by Penn Labs in Philadelphia. 
           </p>
           <a href="https://github.com/pennlabs/" style={{marginRight:"1rem"}}>
           <span><i className="fab fa-github"></i></span>
