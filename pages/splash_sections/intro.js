@@ -16,7 +16,7 @@ const Intro = (props) => (
                 </h2>
                 <p style={{fontSize:"1.2rem"}}>
                   We are a team of student <strong>software engineers</strong>, <strong>product designers</strong>, and <strong>business developers.</strong> Our ultimate goal is improving the Penn community. 
-                  In addition to creating high-quality products, we give back with 
+                  In addition to creating 100% free high-quality products, we give back with 
                   educational resources and technical support.
                 </p>
               </div>)}
