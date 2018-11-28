@@ -6,17 +6,17 @@ const Intro = (props) => (
       <div className="columns">
         <div className="column is-6" style={{paddingTop:"3rem"}}>
           <h1 className="title has-text-weight-bold" style={{fontSize:"2.8rem",  marginBottom: "0.5rem"}}>
-            Hi, we're Penn Labs:
+            Hi, we're Penn Labs.
           </h1>
           <Spring from={{ opacity: 0 }} to={{ opacity: 1 }} delay={500} config={config.molasses}>
             {props => (
               <div style={props}>
                 <h2 className="subtitle" style={{fontSize:"2rem"}}>
-                  a team of student <strong>software engineers</strong>, <strong>product designers</strong>, and <strong>business developers.</strong>
+                  Built by students, for students.
                 </h2>
                 <p style={{fontSize:"1.2rem"}}>
-                  Our ultimate goal is improving the Penn community. 
-                  In addition to creating high-quality products, we give back to the community with 
+                  We are a team of student <strong>software engineers</strong>, <strong>product designers</strong>, and <strong>business developers.</strong> Our ultimate goal is improving the Penn community. 
+                  In addition to creating high-quality products, we give back with 
                   educational resources and technical support.
                 </p>
               </div>)}
