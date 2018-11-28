@@ -10,8 +10,7 @@ const Header = () => (
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" />
       <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
       <link rel="stylesheet" href="styles/style.css" />
-      <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    </head>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />    </head>
 
     <nav className="navbar is-info" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
