@@ -45,6 +45,7 @@ class MemberCard extends React.Component {
                     <span className="tag is-rounded">{role.name}</span>
                   )}
                 </div>
+                
               </div>
             </div>
             </a>

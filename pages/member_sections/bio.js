@@ -1,3 +1,6 @@
+var Converter = require('react-showdown').Converter;
+var rConverter = new Converter();
+
 const Bio = (props) => (
   <div className="columns">
     <div className="column is-5">
@@ -14,9 +17,7 @@ const Bio = (props) => (
           <h4 style={{fontSize:"1.2rem", fontStyle: "italic"}}>
             {props.member.location}
           </h4>
-          <p>
-            {props.member.bio}
-          </p>
+          {rConverter.convert(props.member.bio)}
           <nav className="level is-mobile">
             <div className="level-left">
               {props.member.github ? (
