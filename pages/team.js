@@ -16,48 +16,47 @@ const Team = (props) => (
           The brilliant minds behind the products that tens of thousands
           of students use. Also check out our <a href="/alumni">Alumni</a>!
         </p>
-        <br/><br/>
-        <h4 className="title is-4" style={{marginBottom: 0}}>
+        <hr />
+        <h4 className="title is-4" style={{marginBottom: "0.5rem", marginTop: "2rem"}}>
           Platform
         </h4>
-        <p> Consolidating the software that Penn Labs builds and developing open source projects to help the organization scale </p>
+        <p> Consolidating the software that Penn Labs builds and developing open source projects to help the organization scale.</p>
         <br/>
         <div className="columns is-multiline">
           {props.platform.map((member) => <MemberCard member={member} />)}
         </div>
-        <h3 className="title is-4" style={{marginBottom: 0}}>
-          Courses
+        <h3 className="title is-4" style={{marginBottom: "0.5rem", marginTop: "2rem"}}>
+          Penn Courses
         </h3>
         <p>  Penn Courses manages all of our services which help students with registration and course planning. Penn Labs was started and built up around Penn Course Review, and the Penn Courses product offering has grown since then to include Penn Course Alert and Penn Course Search.</p>
         <br/>
         <div className="columns is-multiline">
           {props.courses.map((member) => <MemberCard member={member} />)}
         </div>
-        <h3 className="title is-4" style={{marginBottom: 0}}>
-          iOS
+        <h3 className="title is-4" style={{marginBottom: "0.5rem", marginTop: "2rem"}}>
+          Penn Mobile (iOS)
         </h3>
         <p>  </p>
         <br/>
         <div className="columns is-multiline">
           {props.ios.map((member) => <MemberCard member={member} />)}
         </div>
-        <h3 className="title is-4" style={{marginBottom: 0}}>
-          Android
+        <h3 className="title is-4" style={{marginBottom: "0.5rem", marginTop: "2rem"}}>
+          Penn Mobile (Android)
         </h3>
         <p>  </p>
         <br/>
         <div className="columns is-multiline">
           {props.android.map((member) => <MemberCard member={member} />)}
         </div>
-        <h3 className="title is-4" style={{marginBottom: 0}}>
-          Basics
+        <h3 className="title is-4" style={{marginBottom: "0.5rem", marginTop: "2rem"}}>
+          Penn Basics
         </h3>
         <p>  </p>
         <br/>
         <div className="columns is-multiline">
           {props.basics.map((member) => <MemberCard member={member} />)}
         </div>
-
     </div>
   </section>
   <Footer />
