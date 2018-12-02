@@ -38,14 +38,11 @@ class MemberCard extends React.Component {
                 </h1>
                 <div className="tags">
                   <span className="tag is-rounded">{this.props.member.user.major}</span>
-                  {this.props.member.teams.map((team) =>
-                    <span className="tag is-rounded">{team.name}</span>
-                  )}
                   {this.props.member.roles.map((role) =>
                     <span className="tag is-rounded">{role.name}</span>
                   )}
                 </div>
-                
+
               </div>
             </div>
             </a>
