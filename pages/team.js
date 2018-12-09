@@ -9,17 +9,17 @@ const Team = (props) => (
     <Header />
     <section className="section">
       <div className="container">
-        <h3 className="title is-3" style={{marginBottom:"0.5rem"}}>
+        <h3 className="title is-3" style={{marginBottom:"0.5rem", fontWeight:800}}>
           Meet the Team
         </h3>
         <p>
           The brilliant minds behind the products that tens of thousands
           of students use. Also check out our <a href="/alumni">Alumni</a>!
         </p>
-        <br/><br/>
+        <hr />
         {props.teams.map((team) => (
           <div>
-            <h4 className="title is-4" style={{marginBottom: 0}}>
+            <h4 className="title is-4" style={{fontWeight:800, marginBottom: "0.3rem"}}>
               {team.name}
             </h4>
             <p> {team.description} </p>
@@ -27,7 +27,7 @@ const Team = (props) => (
             <div className="columns is-multiline">
               {(team.members) ? ((team.members.map((member)=> <MemberCard member={member} /> ))) : (<div></div>)}
             </div>
-            <br/><br/>
+            <br/>
           </div>
         ))}
     </div>
