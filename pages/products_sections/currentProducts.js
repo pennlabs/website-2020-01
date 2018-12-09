@@ -23,12 +23,6 @@ const CurrentProducts = (props) => (
           desc="PennBasics is a one-stop shop for the basics of living at Penn. It strives to make students' lives easier at Penn so they can focus on what matters. PennBasics aggregates essential data on dining, laundry, and study spaces, and tailors the dashboard to your preferences."
         />
         <ProductCard
-          href="https://penncfa.com/accounts/login/?next=/"
-          img="/static/img/CFA-logo.png"
-          title="Common Funding Application"
-          desc="The Common Funding Application allows student groups across the University to easily request funding for their events from one or more funding sources on campus. On the other side of the process, funding groups have the ability to view what groups have applied for funding from them and make approval/denials."
-        />
-        <ProductCard
           href="https://penncoursealert.com/"
           img="/static/img/PCA.png"
           title="Penn Course Alert"
@@ -38,6 +32,12 @@ const CurrentProducts = (props) => (
           img="/static/img/PennMobile.png"
           title="Penn Mobile"
           desc= "Penn Mobile App is the university's first official mobile app. On iOS and Android, PennMobile provides live dining hall menus and hours, course and faculty search, live bus routes, popular sources of campus-news and school support numbers."
+        />
+        <ProductCard
+          href="https://penncfa.com/accounts/login/?next=/"
+          img="/static/img/CFA-logo.png"
+          title="Common Funding Application"
+          desc="The Common Funding Application allows student groups across the University to easily request funding for their events from one or more funding sources on campus. On the other side of the process, funding groups have the ability to view what groups have applied for funding from them and make approval/denials."
         />
         <ProductCard
           img="/static/img/OHQ-logo.png"
