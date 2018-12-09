@@ -18,7 +18,7 @@ const Products = (props) => (
         <ProductCard href="" img="/static/img/PennMobile.png" imgClassName="image is-64x64" title="Penn Mobile" desc="Dining, laundry, room reservations for iOS and Android"  />
       </div>
       <p>
-        We build apps for <i>you</i>. Tell us what you want to see at Penn by contacting us <a href="/contact" style={{textDecoration: "underline", color: "#ffffff"}}>here</a>.
+        View our privacy policies <a href="/privacy" style={{textDecoration: "underline", color: "#ffffff"}}>here</a>.
       </p>
     </div>
   </section>
