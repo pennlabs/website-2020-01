@@ -16,63 +16,38 @@ const Team = (props) => (
           The brilliant minds behind the products that tens of thousands
           of students use. Also check out our <a href="/alumni">Alumni</a>!
         </p>
-        <hr />
-        <h4 className="title is-4" style={{marginBottom: "0.5rem", marginTop: "2rem"}}>
-          Platform
-        </h4>
-        <p> Consolidating the software that Penn Labs builds and developing open source projects to help the organization scale.</p>
-        <br/>
-        <div className="columns is-multiline">
-          {props.platform.map((member) => <MemberCard member={member} />)}
-        </div>
-        <h3 className="title is-4" style={{marginBottom: "0.5rem", marginTop: "2rem"}}>
-          Penn Courses
-        </h3>
-        <p>  Penn Courses manages all of our services which help students with registration and course planning. Penn Labs was started and built up around Penn Course Review, and the Penn Courses product offering has grown since then to include Penn Course Alert and Penn Course Search.</p>
-        <br/>
-        <div className="columns is-multiline">
-          {props.courses.map((member) => <MemberCard member={member} />)}
-        </div>
-        <h3 className="title is-4" style={{marginBottom: "0.5rem", marginTop: "2rem"}}>
-          Penn Mobile (iOS)
-        </h3>
-        <p>  </p>
-        <br/>
-        <div className="columns is-multiline">
-          {props.ios.map((member) => <MemberCard member={member} />)}
-        </div>
-        <h3 className="title is-4" style={{marginBottom: "0.5rem", marginTop: "2rem"}}>
-          Penn Mobile (Android)
-        </h3>
-        <p>  </p>
-        <br/>
-        <div className="columns is-multiline">
-          {props.android.map((member) => <MemberCard member={member} />)}
-        </div>
-        <h3 className="title is-4" style={{marginBottom: "0.5rem", marginTop: "2rem"}}>
-          Penn Basics
-        </h3>
-        <p>  </p>
-        <br/>
-        <div className="columns is-multiline">
-          {props.basics.map((member) => <MemberCard member={member} />)}
-        </div>
+        <br/><br/>
+        {props.teams.map((team) => (
+          <div>
+            <h4 className="title is-4" style={{marginBottom: 0}}>
+              {team.name}
+            </h4>
+            <p> {team.description} </p>
+            <br/>
+            <div className="columns is-multiline">
+              {(team.members) ? ((team.members.map((member)=> <MemberCard member={member} /> ))) : (<div></div>)}
+            </div>
+            <br/><br/>
+          </div>
+        ))}
     </div>
   </section>
   <Footer />
-  </div>
-  );
+</div>);
 
-  Team.getInitialProps = async({ }) => {
-    const res = await fetch('http://platform.pennlabs.org/org/members/?format=json')
-    const members = await res.json()
-    console.log(members[0].teams);
-    const platform = members.filter((member) => member.teams[0].name === ("Platform"));
-    const courses = members.filter((member) => member.teams[0].name === ("Courses"));
-    const basics = members.filter((member) => member.teams[0].name === ("Basics"));
-    const ios = members.filter((member) => member.teams[0].name === ("iOS"));
-    const android = members.filter((member) => member.teams[0].name === ("Android"));
-    return { platform, courses, basics, ios, android }
-  }
+Team.getInitialProps = async({ }) => {
+  const res = await fetch('http://platform.pennlabs.org/org/members/?format=json');
+  const members = await res.json();
+  const res1 = await fetch('http://platform.pennlabs.org/org/teams/?format=json');
+  const teams = await res1.json();
+  console.log(teams);
+  // const platform = members.filter((member) => member.teams[0].name === ("Platform"));
+  // const courses = members.filter((member) => member.teams[0].name === ("Courses"));
+  // const basics = members.filter((member) => member.teams[0].name === ("Basics"));
+  // const ios = members.filter((member) => member.teams[0].name === ("iOS"));
+  // const android = members.filter((member) => member.teams[0].name === ("Android"));
+  // return { platform, courses, basics, ios, android }
+  return { teams };
+}
 
 export default Team;
