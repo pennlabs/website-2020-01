@@ -22,7 +22,7 @@ class MemberCard extends React.Component {
           pose={this.state.hovering ? "hovered" : "idle"}
           onMouseEnter={() => this.setState({ hovering: true })}
           onMouseLeave={() => this.setState({ hovering: false })}>
-          <a href={"/member?name=" + this.props.member.url}><div className="card">
+          <a href={"/member?name=" + this.props.member.url}><div className="card" style={{borderRadius: 5, borderWidth: 0}}>
               <div className="card-image">
                 <figure className="image is-4by3">
                   <img

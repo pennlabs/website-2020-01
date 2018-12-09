@@ -21,7 +21,7 @@ class InfoCard extends React.Component {
           pose={this.state.hovering ? "hovered" : "idle"}
           onMouseEnter={() => this.setState({ hovering: true })}
           onMouseLeave={() => this.setState({ hovering: false })}>
-          <div className="card" style={{borderRadius: 2, borderWidth: 0}}>
+          <div className="card" style={{borderRadius: 5, borderWidth: 0}}>
             <div className="card-content">
               <div class="media">
                 {this.props.img ? (

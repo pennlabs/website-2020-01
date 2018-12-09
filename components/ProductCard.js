@@ -22,7 +22,7 @@ class ProductCard extends React.Component {
         onMouseEnter={() => this.setState({ hovering: true })}
         onMouseLeave={() => this.setState({ hovering: false })}>
         <a href={this.props.href}>
-        <div className="card" style={{borderRadius: 2, borderWidth: 0}}>
+        <div className="card" style={{borderRadius: 5, borderWidth: 0}}>
           <div className="card-content">
             <div class="media">
               <div class="media-left">
