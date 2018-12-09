@@ -15,7 +15,7 @@ const CurrentProducts = (props) => (
           img="/static/img/PCR.png"
           title="Penn Course Review"
           desc="Penn Course Review allows Penn students to make informed decisions on their course decisions. PCR includes professor rankings, course difficulties, commentary, and more on all courses taught at Penn in the past decade."
-          //tag={<a href="/api/pcr"> <span className="tag is-info">View API</span> </a>}
+          tag={<a href="/api/pcr"> <span className="tag is-info">View API</span> </a>}
         />
         <ProductCard
           //tag={<a href="/api/basics"> <span className="tag is-info">View API</span> </a>}
