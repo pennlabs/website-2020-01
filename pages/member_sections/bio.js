@@ -5,14 +5,14 @@ const Bio = (props) => (
   <div className="columns">
     <div className="column is-5">
       <figure className="image">
-        <img src={props.member.photo} style={{maxWidth:"100%", objectFit: "cover"}} alt={props.member.user.name} />
+        <img src={props.member.photo} style={{maxWidth:"100%", objectFit: "cover"}} alt={props.member.student.name} />
       </figure>
     </div>
     <div className="column">
       <div className="content">
         <div className="card-content">
           <h1 style={{fontWeight:500, fontSize:"1.8rem", fontWeight: "800"}}>
-            {props.member.user.name}
+            {props.member.student.name}
           </h1>
           <h4 style={{fontSize:"1.2rem", fontStyle: "italic"}}>
             {props.member.location}

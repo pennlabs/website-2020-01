@@ -34,10 +34,10 @@ class MemberCard extends React.Component {
               </div>
               <div className="card-content">
                 <h1 class="has-text-weight-bold" style={{fontWeight:500, fontSize:"1.5rem", marginBottom: "1rem"}}>
-                  {this.props.member.user.name}
+                  {this.props.member.student.name}
                 </h1>
                 <div className="tags">
-                  <span className="tag is-rounded">{this.props.member.user.major}</span>
+                  <span className="tag is-rounded">{this.props.member.student.major}</span>
                   {this.props.member.roles.map((role) =>
                     <span className="tag is-rounded">{role.name}</span>
                   )}
