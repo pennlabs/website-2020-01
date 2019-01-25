@@ -14,13 +14,15 @@ class InfoCard extends React.Component {
     }
   }
 
+  // <Square
+  //   pose={this.state.hovering ? "hovered" : "idle"}
+  //   onMouseEnter={() => this.setState({ hovering: true })}
+  //   onMouseLeave={() => this.setState({ hovering: false })}>
+
   render() {
     return (
       <div className="column is-half">
-        <Square
-          pose={this.state.hovering ? "hovered" : "idle"}
-          onMouseEnter={() => this.setState({ hovering: true })}
-          onMouseLeave={() => this.setState({ hovering: false })}>
+
           <div className="card" style={{borderRadius: 5, borderWidth: 0}}>
             <div className="card-content">
               <div class="media">
@@ -37,8 +39,8 @@ class InfoCard extends React.Component {
               </div>
             </div>
           </div>
-        </Square>
       </div>)}
     }
+            // </Square>
 
 export default InfoCard;
