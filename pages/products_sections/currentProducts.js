@@ -34,6 +34,11 @@ const CurrentProducts = (props) => (
           desc= "Penn Mobile is the university's first official mobile app. On iOS and Android, PennMobile provides live dining hall menus and hours, laundry machine availability, study room booking, course and faculty search, popular sources of campus-news and school support numbers."
         />
         <ProductCard
+          img="/static/img/PCS.png"
+          title="Penn Course Search"
+          desc="Penn course search is a platform that provides useful information to students while planning their schedule: the search feature filters courses by the requirements it fulfills and its current availability, and the course description includes the difficulty and quality rating of the course and professor. Students then add courses to a calendar to visualize their intended schedule."
+        />
+        <ProductCard
           href="https://penncfa.com/accounts/login/?next=/"
           img="/static/img/CFA-logo.png"
           title="Common Funding Application"

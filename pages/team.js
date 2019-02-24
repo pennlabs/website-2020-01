@@ -4,6 +4,8 @@ import MemberCard from '../components/MemberCard'
 
 import fetch from 'isomorphic-fetch';
 
+//Also check out our <a href="/alumni">Alumni</a>!
+
 const Team = (props) => (
   <div>
     <Header />
@@ -14,7 +16,7 @@ const Team = (props) => (
         </h3>
         <p>
           The brilliant minds behind the products that tens of thousands
-          of students use. Also check out our <a href="/alumni">Alumni</a>!
+          of students use.
         </p>
         <hr />
         {props.teams.map((team) => (
