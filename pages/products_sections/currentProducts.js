@@ -31,7 +31,7 @@ const CurrentProducts = (props) => (
         <ProductCard
           img="/static/img/PennMobile.png"
           title="Penn Mobile"
-          desc= "Penn Mobile App is the university's first official mobile app. On iOS and Android, PennMobile provides live dining hall menus and hours, course and faculty search, live bus routes, popular sources of campus-news and school support numbers."
+          desc= "Penn Mobile is the university's first official mobile app. On iOS and Android, PennMobile provides live dining hall menus and hours, laundry machine availability, study room booking, course and faculty search, popular sources of campus-news and school support numbers."
         />
         <ProductCard
           img="/static/img/PCS.png"
