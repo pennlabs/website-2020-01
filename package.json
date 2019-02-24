@@ -17,7 +17,7 @@
     "url": "^0.11.0"
   },
   "scripts": {
-    "dev": "node server.js",
+    "dev": "next",
     "build": "next build",
     "start": "next start -p $PORT",
     "heroku-postbuild": "next build"
