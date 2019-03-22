@@ -27,7 +27,7 @@ class MemberCard extends React.Component {
                 <figure className="image is-4by3">
                   <img
                     src={this.props.member.photo}
-                    style={{maxWidth:"100%", objectFit: "cover"}}
+                    style={{maxWidth:"100%", objectFit: "cover", borderRadius: 5, borderWidth: 0}}
                     alt="Placeholder image"
                   />
                 </figure>

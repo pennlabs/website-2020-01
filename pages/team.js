@@ -38,17 +38,8 @@ const Team = (props) => (
 </div>);
 
 Team.getInitialProps = async({ }) => {
-  const res = await fetch('http://platform.pennlabs.org/org/members/?format=json');
-  const members = await res.json();
-  const res1 = await fetch('http://platform.pennlabs.org/org/teams/?format=json');
-  const teams = await res1.json();
-  console.log(teams);
-  // const platform = members.filter((member) => member.teams[0].name === ("Platform"));
-  // const courses = members.filter((member) => member.teams[0].name === ("Courses"));
-  // const basics = members.filter((member) => member.teams[0].name === ("Basics"));
-  // const ios = members.filter((member) => member.teams[0].name === ("iOS"));
-  // const android = members.filter((member) => member.teams[0].name === ("Android"));
-  // return { platform, courses, basics, ios, android }
+  const res = await fetch('http://platform.pennlabs.org/org/teams/?format=json');
+  const teams = await res.json();
   return { teams };
 }
 
