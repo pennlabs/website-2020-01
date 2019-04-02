@@ -47,8 +47,8 @@ class Header extends React.Component {
           <div className={ this.state.isActive ? 'navbar-menu is-active' : 'navbar-menu'}>
             <div className="navbar-start"></div>
             <div className="navbar-end">
-              <a className="navbar-item" href="/team">
-                Team
+              <a className="navbar-item" href="/members">
+                Members
               </a>
               <a className="navbar-item" href="/products">
                 Products
