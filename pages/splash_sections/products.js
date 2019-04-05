@@ -7,8 +7,8 @@ const Products = (props) => (
       <h1 className="title has-text-weight-bold" style={{color: "azure", fontSize:"2.8rem"}}>
         Featured Products:
       </h1>
-      <h2 className="subtitle" style={{fontSize:"2rem"}}>
-        the apps that better your life at <strong>Penn</strong>.
+      <h2 className="subtitle has-text-grey-lighter" style={{fontSize:"2rem"}}>
+        the apps that better your life at <span className="has-text-weight-bold">Penn</span>.
       </h2>
     <br/>
       <div className="columns is-multiline">
