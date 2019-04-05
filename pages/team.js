@@ -6,7 +6,7 @@ import fetch from 'isomorphic-fetch';
 
 //Also check out our <a href="/alumni">Alumni</a>!
 
-const Members = (props) => (
+const Team = (props) => (
   <div>
     <Header />
     <section className="section">
@@ -18,7 +18,7 @@ const Members = (props) => (
           The brilliant minds behind the products that tens of thousands
           of students use.
         </p>
-        <br />
+        <hr />
         {props.teams.map((team) => (
           <div>
             <h4 className="title is-4" style={{fontWeight:800, marginBottom: "0.3rem"}}>
@@ -37,10 +37,10 @@ const Members = (props) => (
   <Footer />
 </div>);
 
-Members.getInitialProps = async({ }) => {
+Team.getInitialProps = async({ }) => {
   const res = await fetch('http://platform.pennlabs.org/org/teams/?format=json');
   const teams = await res.json();
   return { teams };
 }
 
-export default Members;
+export default Team;

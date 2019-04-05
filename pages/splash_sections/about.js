@@ -21,7 +21,6 @@ const About = (props) => (
           <InfoCard titleChild={<p class="title is-3" style={{paddingBottom:"0.5rem"}}><strong class="has-text-weight-bold" style={{color: "#209CEE"}}>7+ </strong> years</p>} desc="of supporting the Penn community at large." />
           <InfoCard titleChild={<p class="title is-3" style={{paddingBottom:"0.5rem"}}><strong class="has-text-weight-bold" style={{color: "#209CEE"}}>$700,000+ </strong>handled</p>} desc="through our Common Funding Application portal." />
         </div>
-        <p>Interested in making products that thousands of people use? <a href="/apply"> Join us. </a> </p>
       </div>
     </section>
 </div>
