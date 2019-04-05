@@ -18,7 +18,7 @@ const Members = (props) => (
           The brilliant minds behind the products that tens of thousands
           of students use.
         </p>
-        <hr />
+        <br />
         {props.teams.map((team) => (
           <div>
             <h4 className="title is-4" style={{fontWeight:800, marginBottom: "0.3rem"}}>
