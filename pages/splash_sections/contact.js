@@ -1,11 +1,11 @@
 const Contact = (props) => (
   <div>
-    <section className="section">
+    <section className="section" style={{backgroundColor: "#209CEE", color:"azure"}}>
       <div className="container">
-        <h1 className="title has-text-weight-bold" style={{fontSize:"2.8rem"}}>
+      <h1 className="title has-text-weight-bold" style={{color: "azure", fontSize:"2.8rem"}}>
           Contact:
         </h1>
-        <h2 className="subtitle" style={{fontSize:"2rem"}}>
+        <h2 className="subtitle" style={{color: "azure"}}>
           Your feedback means everything to us. 
         </h2>
         <p>
