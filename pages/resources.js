@@ -25,7 +25,7 @@ const Guides = (props) => (
                 <div class="media">
                   <div class="media-left">
                     <figure class="image is-48x48">
-                      <img src="/static/img/pcr.png" alt="Placeholder image" />
+                      <img src="/static/img/PCR.png" alt="Placeholder image" />
                     </figure>
                   </div>
                   <div class="media-content">
@@ -45,7 +45,7 @@ const Guides = (props) => (
                 <div class="media">
                   <div class="media-left">
                     <figure class="image is-48x48">
-                      <img src="/static/img/pennmobile.png" alt="Placeholder image" />
+                      <img src="/static/img/PennMobile.png" alt="Placeholder image" />
                     </figure>
                   </div>
                   <div class="media-content">
@@ -65,7 +65,7 @@ const Guides = (props) => (
                 <div class="media">
                   <div class="media-left">
                     <figure class="image is-48x48">
-                      <img src="/static/img/pcs.png" alt="Placeholder image" />
+                      <img src="/static/img/PCS.png" alt="Placeholder image" />
                     </figure>
                   </div>
                   <div class="media-content">
