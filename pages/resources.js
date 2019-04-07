@@ -3,7 +3,7 @@ import Footer from '../components/Footer';
 import Table from '../components/Table';
 import ProductCard from '../components/ProductCard';
 
-const Guides = (props) => (
+const Resources = (props) => (
   <div>
     <Header />    
       <div class="container" style={{marginTop: "5rem"}}>
@@ -20,68 +20,31 @@ const Guides = (props) => (
               We also maintain free APIs and SDKs with support for Javascript, Python, Ruby and OAuth.
             </p>
             <hr />
-            <div class="card" style={{borderRadius:"5px"}}>
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-left">
-                    <figure class="image is-48x48">
-                      <img src="/static/img/PCR.png" alt="Placeholder image" />
-                    </figure>
+            {props.resources.map((resource) => (
+              <div class="card" style={{borderRadius:"5px", marginBottom: "1rem"}}>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img src={resource.src} alt="Placeholder image" />
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-4">{resource.title}</p>
+                      <p class="subtitle is-6">
+                        {resource.tags.map((tag) => <span style={{marginRight: "0.2rem"}} class="tag is-light">{tag}</span>)}
+                      </p>
+                    </div>
                   </div>
-                  <div class="media-content">
-                    <p class="title is-4">Penn Course Review</p>
-                    <p class="subtitle is-6"><span class="tag is-light">JSON</span> <span class="tag is-light">REST API</span></p>
+                  <div class="content">
+                    <a href={resource.demo} style={{marginRight: "0.2rem"}} className="button">Demo</a> 
+                    <a href={resource.documentation} className="button">Documentation</a>
                   </div>
-                </div>
-                <div class="content">
-                  <a href="https://platform.pennlabs.org" className="button">Demo</a> 
-                  <a href="https://github.com/pennlabs/pcr/blob/master/docs/api.md" className="button">Documentation</a>
                 </div>
               </div>
-            </div>
-            <br />
-            <div class="card" style={{borderRadius:"5px"}}>
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-left">
-                    <figure class="image is-48x48">
-                      <img src="/static/img/PennMobile.png" alt="Placeholder image" />
-                    </figure>
-                  </div>
-                  <div class="media-content">
-                    <p class="title is-4">Penn Mobile</p>
-                    <p class="subtitle is-6"><span class="tag is-light">JSON</span> <span class="tag is-light">REST API</span></p>
-                  </div>
-                </div>
-                <div class="content">
-                  <a href="https://platform.pennlabs.org" className="button">Demo</a> 
-                   <a href="https://github.com/pennlabs/labs-api-server" className="button">Documentation</a>
-                </div>
-              </div>
-            </div>
-            <br />
-            <div class="card" style={{borderRadius:"5px"}}>
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-left">
-                    <figure class="image is-48x48">
-                      <img src="/static/img/PCS.png" alt="Placeholder image" />
-                    </figure>
-                  </div>
-                  <div class="media-content">
-                    <p class="title is-4">Penn SDK</p>
-                    <p class="subtitle is-6"><span class="tag is-light">Python</span> <span class="tag is-light">SDK</span></p>
-                  </div>
-                </div>
-                <div class="content">
-                  <a href="https://platform.pennlabs.org" className="button">Demo</a> 
-                  <a href="https://github.com/pennlabs/penn-sdk-python" className="button">Documentation</a>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
           <div className="column is-quarter" style={{align: "right"}} />
-
           <div className="column is-quarter" >
             <figure class="image" style={{width: "200px"}}>
               <img src="/static/img/stack.png" />
@@ -95,4 +58,31 @@ const Guides = (props) => (
   </div>
 );
 
-export default Guides;
+Resources.getInitialProps = async({ }) => {
+  const resources = [
+    { 
+      title: "Penn SDK", 
+      src: "/static/img/PCS.png",
+      tags: ['Python', 'SDK'], 
+      demo: "https://data.pennlabs.org", 
+      documentation: "https://github.com/pennlabs/penn-sdk-python"
+    },
+    { 
+      title: "Penn Mobile", 
+      src: "/static/img/PennMobile.png",
+      tags: ['JSON', 'REST API'], 
+      demo: "https://data.pennlabs.org", 
+      documentation: "https://github.com/pennlabs/labs-api-server"
+    },
+    { 
+      title: "Penn Course Review", 
+      src: "/static/img/PCR.png",
+      tags: ['JSON', 'REST API'], 
+      demo: "https://data.pennlabs.org", 
+      documentation: "https://github.com/pennlabs/pcr/blob/master/docs/api.md"
+    },
+  ]
+  return { resources };
+}
+
+export default Resources;
