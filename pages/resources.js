@@ -65,7 +65,7 @@ Resources.getInitialProps = async({ }) => {
       src: "/static/img/PCS.png",
       tags: ['Python', 'SDK'], 
       demo: "https://data.pennlabs.org", 
-      documentation: "https://github.com/pennlabs/penn-sdk-python"
+      documentation: "https://penn-sdk.readthedocs.io/"
     },
     { 
       title: "Penn Mobile", 
