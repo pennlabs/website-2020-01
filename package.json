@@ -21,5 +21,6 @@
     "build": "next build",
     "start": "next",
     "heroku-postbuild": "next build"
-  }
+  },
+  "license": "MIT"
 }
