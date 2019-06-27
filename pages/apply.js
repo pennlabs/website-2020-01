@@ -227,7 +227,8 @@ const Apply = (props) => (
                 the best members can come from anywhere, no prior experience necessary.
               </p>
             </div>
-            <a href="https://eepurl.com/c07CGb" class="button is-medium">Apply Now</a>
+            <p style={{fontSize: "0.75rem", paddingBottom: "0.5rem"}}>Join our email list and get notified before anybody else:</p>
+            <a href="https://eepurl.com/c07CGb" class="button is-medium">Sign me up!</a>
           </div>
         </div>
       </div>
