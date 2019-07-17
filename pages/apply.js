@@ -35,7 +35,7 @@ const Apply = (props) => (
                     <strong>Iconic Products</strong>
                   </h3>
                   <p style={{paddingTop: "0px"}}>
-                    From Penn Course Review to Common Application Funding, we build software that improves the lives of every Penn student.
+                    From Penn Course Review to the Common Funding Application, we build software that improves the lives of every Penn student.
                     Watching your friends use the products that you helped build is a great way to stay grounded and involved in the community.
                   </p>
                 </div>
@@ -65,7 +65,7 @@ const Apply = (props) => (
                     <strong>Top Talent</strong>
                   </h3>
                   <p style={{paddingTop: "0px"}}>
-                    Although skill ranges vary when joining Labs, our current members are at the top of their game. Through Penn Labs' 
+                    Although skill levels vary when joining Labs, our current members are at the top of their game. Through Penn Labs' 
                     strong work culture our members are highly sought after, becoming teaching assistants,
                     working for prestigious companies around the world, and launching their own startups.
                   </p>
@@ -80,8 +80,8 @@ const Apply = (props) => (
                     <strong>Lots of Fun</strong>
                   </h3>
                   <p style={{paddingTop: "0px"}}>
-                    Penn Labs is a relaxed club who's only goal is to make good software. We're a tightly knit community of friends 
-                    that support each other. Penn Labs excursions in Center City are common and are a great way to avoid thinking about bugs.
+                    Penn Labs is a relaxed club whose primary goal is to make good software. We pride ourselves on being a tight-knit community of friends 
+                    that support each other. Penn Labs frequently holds hangouts and events that are a great way to avoid thinking about bugs.
                   </p>
                 </div>
               </div>
@@ -202,7 +202,7 @@ const Apply = (props) => (
           </div>
         </div>
         <p>
-          ...and many others. Work on these iconic projects, or whichever one fits you best.
+          ...and many others. Work on one of our iconic products, or a newly-launched one, or start your own initiative.
         </p>
       </div>
     </section>
@@ -221,16 +221,22 @@ const Apply = (props) => (
               <span class="tag is-info">Back End Development</span><br />
               <span class="tag is-info">Mobile Development</span><br />
               <span class="tag is-info">DevOps and Security</span><br />
-              <span class="tag is-info">Marketing</span>
+              <span class="tag is-info">Design (UI/UX and graphic)</span><br />
+              <span class="tag is-info">Business Development</span>
               <br /> <br />
-              <p>More importantly, we're looking for dedicated students with the capacity to learn. We understand that 
-                the best members can come from anywhere, no prior experience necessary.
+              <p>More importantly, we're looking for dedicated students with the capacity to learn. We understand that the best members can come from anywhere, no prior experience necessary!
               </p>
             </div>
-            <p style={{fontSize: "0.75rem", paddingBottom: "0.5rem"}}>Join our email list and get notified before anybody else:</p>
-            <a href="https://eepurl.com/c07CGb" class="button is-medium">Sign me up!</a>
+            
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="section" style={{backgroundColor: "#209CEE", color: "azure"}}>
+      <div class="container">
+        <p style={{color: "azure", fontSize: "1.5rem", paddingBottom: "1rem"}}><b>Join our mailing list</b> to be notified when applications are released:</p>
+        <a href="https://eepurl.com/c07CGb" class="button">Sign me up!</a>
       </div>
     </section>
     <Footer />
