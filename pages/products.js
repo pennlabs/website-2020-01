@@ -12,7 +12,7 @@ const Products = (props) => (
           Products
         </h3>
         <p>
-          These are all our projects ever!
+          Our products are intended to solve everyday problems for you, so that you can focus on the more important parts of life at Penn. 
         </p>
         <br/>
         <CurrentProducts/>
