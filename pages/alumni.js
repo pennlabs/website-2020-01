@@ -4,18 +4,16 @@ import AlumniCard from '../components/AlumniCard'
 
 import fetch from 'isomorphic-fetch';
 
-//Also check out our <a href="/alumni">Alumni</a>!
-
 const Alumni = (props) => (
   <div>
     <Header />
     <section className="section">
       <div className="container">
         <h3 className="title is-3" style={{marginBottom:"0.5rem", fontWeight:800}}>
-          We love our Alumni!
+          Meet our Alumni
         </h3>
         <p>
-          Former labbies leaving their mark on the world.
+          The Labbies who lay the foundation for the good work we do now.
         </p>
         <hr />
         <div className="columns">
