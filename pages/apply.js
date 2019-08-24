@@ -11,7 +11,7 @@ const Apply = (props) => (
             Come build with us!
           </h1>
           <h2 class="subtitle">
-            We're always looking for people to join Penn Labs.
+            Join the Penn Labs community this fall.
           </h2>
           <a class="button is-large is-info is-rounded is-inverted is-focused" href="https://airtable.com/shrdwaiRWZoqtr29O">Apply Now <span class="icon is-small" style={{marginLeft: "0.1rem"}}><i class="fa fa-angle-double-right"></i></span></a>
         </div>
@@ -29,7 +29,8 @@ const Apply = (props) => (
 
         <p>
           Penn Labs builds products that help students navigate life at Penn. We're a team of software engineers, product designers, and business developers.
-          <br/><br/> Some products that you may be familiar with include Penn Course Review, Penn Mobile, and Penn Clubs. We’ve had more than 100,000 total users of our products. Through the Common Funding Application that we build and maintain, we've processed over $930,000 in grants for student clubs and organizations.
+          <br/><br/> Some Penn Labs products that you may be familiar with include Penn Course Review, Penn Mobile, and Penn Clubs. We’ve had more than 100,000 total users of our products. Through the Common Funding Application we build and maintain, we've helped processed over $930,000 in grants for student organizations.
+          <br/><br/> Penn Labs is a community, as well as a commitment. We meet for 4 hours each week for work, discussion, and education. Members are also expected to work outside of GBMs to meet product goals. These high expectations are in order to fulfill our mission of building tech products to serve Penn students.
         </p>
               </div>
     </section>
@@ -48,21 +49,15 @@ const Apply = (props) => (
                         <strong>Software Engineering</strong>
                       </h3>
                       <p style={{paddingTop: "0px"}}>
-                        From Penn Course Review to the Common Funding Application, we build software that improves the lives of every Penn student.
-                        Watching your friends use the products that you helped build is a great way to stay grounded and involved in the community.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="box">
-                  <div class="card-content">
-                    <div class="content">
-                      <h3>
-                        <strong>Business Development</strong>
-                      </h3>
-                      <p style={{paddingTop: "0px"}}>
-                        Our products need to be taken from "lab" to real world.  spearheads marketing, events, and collaborations to ensure that Penn Labs reaches real users and meets their needs. If you want to be in the tech industry and help grow an organization in all capacities (strategy, user acquisition, finance, etc), this is the role for you.
+                        Build products and implement new features to solve problems with tech. Whether you’re interested in front-end web dev, iOS programming, or data science, there’s a project that you’ll find interesting. 
+                        <br/><br/>Many of our developers have multiple interests and responsibilities. Here are the categories that we find useful to get to know you by:
+                        <ul>
+                          <li>Back-end web</li>
+                          <li>Front-end web</li>
+                          <li>Fullstack web</li>
+                          <li>Android</li>
+                          <li>iOS</li>
+                        </ul>
                       </p>
                     </div>
                   </div>
@@ -77,7 +72,20 @@ const Apply = (props) => (
                         <strong>Product Design</strong>
                       </h3>
                       <p style={{paddingTop: "0px"}}>
-                        Connect function with form to reach users and meet their needs through UI/UX and graphic design. Designers create mockups, prototypes, and graphic assets. They also manage the visual language of the organization. 
+                        Connect function with form to reach users and meet their needs through UI/UX and graphic design. Designers create mockups, prototypes, and graphic assets. They also manage the visual language of the organization. Our toolkit includes Sketch, Invision, Zeplin, and Adobe Suite.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="box">
+                  <div class="card-content">
+                    <div class="content">
+                      <h3>
+                        <strong>Business Development</strong>
+                      </h3>
+                      <p style={{paddingTop: "0px"}}>
+                        Our products need to be taken from "lab" to real world.  BizDev spearheads marketing, events, and collaborations to ensure that Penn Labs reaches real users and meets their needs. If you want to be in the tech industry and help grow an organization in all capacities (strategy, user acquisition, finance, etc), this is the role for you.
                       </p>
                     </div>
                   </div>
@@ -94,19 +102,21 @@ const Apply = (props) => (
           Application Process
         </h1>
         <h2 class="subtitle">
-            Written application is due <b>Monday 9/9 by 11:59pm</b>
+            <a href="https://airtable.com/shrdwaiRWZoqtr29O">Apply here</a> by <b>Monday 9/9 by 11:59pm</b>
           </h2>
         <p>
-          If any of that gets you excited, we’d love for you to <a href="https://airtable.com/shrdwaiRWZoqtr29O">apply to Penn Labs</a>! After getting to know you on paper, we invite candidates to our second round. This takes place in two parts:
+          If any of that gets you excited, we’d love for you to apply to Penn Labs! After the written application, we invite qualified candidates to our second round. This takes place in two parts:
         </p>
-          <ul>
+        <br/>
+        <ol style={{marginLeft: "2rem"}}>
           <li>
-            <b>One-on-one chat</b> with a current member, where you can ask questions and learn more about the organization
+            <b>Casual chat</b> with a current member, because we want to get to know you in person! Community and culture are very important to us. This conversation also gives you the chance to learn more about what being in Penn Labs is really like.
           </li>
+          <br/>
           <li>
-           <b>Technical challenge</b> where you can show off your skills
+            <b>Technical challenge</b> where you can show off your skills. You'll be given a few days to complete a take-home challenge. We hold an office hours event and are always available via email for questions.
           </li>
-          </ul>
+        </ol>
       </div>
     </section>
 
@@ -124,8 +134,7 @@ const Apply = (props) => (
                       <strong>Iconic Products</strong>
                     </h3>
                     <p style={{paddingTop: "0px"}}>
-                      From Penn Course Review to the Common Funding Application, we build software that improves the lives of every Penn student.
-                      Watching your friends use the products that you helped build is a great way to stay grounded and involved in the community.
+                      From Penn Course Review to the Common Funding Application, we build software that improves the lives of every Penn student. Watching your friends use the products that you helped build is incredibly rewarding way to make an impact at Penn.
                     </p>
                   </div>
                 </div>
