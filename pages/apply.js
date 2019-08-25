@@ -52,7 +52,7 @@ const Apply = (props) => (
                       </h3>
                       <p style={{paddingTop: "0px"}}>
                         Build products and implement new features to solve problems with tech. Whether you’re interested in front-end web dev, iOS programming, or data science, there’s a project that you’ll find interesting. 
-                        <br/><br/> While many of our developers have multiple interests and responsibilities. Here are the categories that we find useful to get to know you by:
+                        <br/><br/> While many of our developers have multiple interests and responsibilities, here are the categories that we find useful to get to know you by:
                         <ul>
                           <li>Back-end web</li>
                           <li>Front-end web</li>
