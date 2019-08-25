@@ -28,11 +28,13 @@ const Apply = (props) => (
         </h2>
 
         <p>
-          Penn Labs builds products that help students navigate life at Penn. We're a team of software engineers, product designers, and business developers.
-          <br/><br/> Some Penn Labs products that you may be familiar with include Penn Course Review, Penn Mobile, and Penn Clubs. We’ve had more than 100,000 total users of our products. Through the Common Funding Application we build and maintain, we've helped processed over $930,000 in grants for student organizations.
-          <br/><br/> Penn Labs is a community, as well as a commitment. We meet for 4 hours each week for work, discussion, and education. Members are also expected to work outside of GBMs to meet product goals. These high expectations are in order to fulfill our mission of building tech products to serve Penn students.
+          Penn Labs builds products that help students navigate life at Penn. All Penn students are eligible to apply for any position, regardless of major or year.
+          <br/><br/> Some Penn Labs products that you may be familiar with include Penn Course Review, Penn Mobile, and Penn Course Alert. We’ve had more than 100,000 total users of our products. Through the Common Funding Application we build and maintain, we've helped processed over $930,000 in grants for student organizations.
+          <br/><br/> Our mission is to build tech products to serve all Penn students, and we recognize that goal requires a decent amount of commitment. 
+          We meet for 4 hours each week to work on projects, discuss future product roadmaps, and learn more about the technologies we use. 
+          Members are also expected to work outside of GBMs when necessary to meet product goals. 
         </p>
-              </div>
+      </div>
     </section>
         
         <section class="section" style={{backgroundColor: "#209CEE", color: "azure"}}>
@@ -50,7 +52,7 @@ const Apply = (props) => (
                       </h3>
                       <p style={{paddingTop: "0px"}}>
                         Build products and implement new features to solve problems with tech. Whether you’re interested in front-end web dev, iOS programming, or data science, there’s a project that you’ll find interesting. 
-                        <br/><br/>Many of our developers have multiple interests and responsibilities. Here are the categories that we find useful to get to know you by:
+                        <br/><br/> While many of our developers have multiple interests and responsibilities. Here are the categories that we find useful to get to know you by:
                         <ul>
                           <li>Back-end web</li>
                           <li>Front-end web</li>
@@ -58,6 +60,9 @@ const Apply = (props) => (
                           <li>Android</li>
                           <li>iOS</li>
                         </ul>
+                      </p>
+                      <p>
+                        <a href="https://stackshare.io/penn-labs">Check out our stack</a> to find out more about the frameworks and tools we use in our products.
                       </p>
                     </div>
                   </div>
@@ -148,7 +153,7 @@ const Apply = (props) => (
                     </h3>
                     <p style={{paddingTop: "0px"}}>
                       We use exclusively open source modern frameworks that are commonly used in the software industry (i.e. React.js, Django, Swift).
-                      Our engineers are kept up to date with good coding/deployment practices and we always place an emphasis on becoming better programmers.
+                      Our engineers keep up to date with good coding/deployment practices and we always place an emphasis on becoming better programmers.
                     </p>
                   </div>
                 </div>
@@ -160,11 +165,12 @@ const Apply = (props) => (
                 <div class="card-content">
                   <div class="content">
                     <h3>
-                      <strong>Top Talent</strong>
+                      <strong>Hone Your Skills</strong>
                     </h3>
                     <p style={{paddingTop: "0px"}}>
-                      Although skill levels vary when joining Labs, our current members are at the top of their game. Through Penn Labs' 
-                      strong work culture our members are highly sought after, becoming teaching assistants,
+                      Skill levels vary when joining Labs, but building and maintaining production-quality products used by thousands of 
+                      students every day is great, real-world experience that's hard to get anywhere else on campus.
+                      Our members are highly sought after, becoming teaching assistants,
                       working for prestigious companies around the world, and launching their own startups.
                     </p>
                   </div>
@@ -178,8 +184,9 @@ const Apply = (props) => (
                       <strong>Lots of Fun</strong>
                     </h3>
                     <p style={{paddingTop: "0px"}}>
-                      Penn Labs is a relaxed club whose primary goal is to make good software. We pride ourselves on being a tight-knit community of friends 
-                      that support each other. Penn Labs frequently holds hangouts and events that are a great way to avoid thinking about bugs.
+                      We're proud of the community we've built inside Penn Labs. Outside of working on all our products, we're a group of friends who support each other.
+                      We have a co-ed rec basketball team (2018-19 champions!), board game nights, study sessions, and just hang out.
+                      It's always great to get away with friends to avoid thinking about bugs for a while.
                     </p>
                   </div>
                 </div>
