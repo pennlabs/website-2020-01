@@ -34,7 +34,7 @@ const Apply = (props) => (
           We meet for 4 hours each week to work on projects, discuss future product roadmaps, and learn more about the technologies we use. 
           Members are also expected to work outside of GBMs when necessary to meet product goals.
           While technical ability varies when joining Labs and our members are always learning, our focus on building production-ready products means that
-          we do require that members come in with technical ability, which we evaluate through the technical challenge of the application process.
+          we do require that members come in with technical ability, which we evaluate through the technical challenge portion of the application process.
         </p>
       </div>
     </section>
@@ -110,7 +110,7 @@ const Apply = (props) => (
           Application Process
         </h1>
         <h2 class="subtitle">
-            <a href="https://airtable.com/shrdwaiRWZoqtr29O">Apply here</a> by <b>Monday 9/9 by 11:59pm</b>
+            <a href="https://airtable.com/shrdwaiRWZoqtr29O">Apply here</a> by <b>Monday 9/9 at 11:59pm</b>
           </h2>
         <p>
           If any of that gets you excited, we’d love for you to apply to Penn Labs! After the written application, we invite qualified candidates to our second round. This takes place in two parts:
