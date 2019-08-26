@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 const Apply = (props) => (
   <div>
     <Header />
-    <section class="hero is-info is-medium">
+    <section class="hero is-info is-small">
       <div class="hero-body">
         <div class="container">
           <h1 class="title" style={{color: "azure", fontSize: "2.8rem"}}>
@@ -30,9 +30,11 @@ const Apply = (props) => (
         <p>
           Penn Labs builds products that help students navigate life at Penn. All Penn students are eligible to apply for any position, regardless of major or year.
           <br/><br/> Some Penn Labs products that you may be familiar with include Penn Course Review, Penn Mobile, and Penn Course Alert. We’ve had more than 100,000 total users of our products. Through the Common Funding Application we build and maintain, we've helped processed over $930,000 in grants for student organizations.
-          <br/><br/> Our mission is to build tech products to serve all Penn students, and we recognize that goal requires a decent amount of commitment. 
+          <br/><br/> Our mission is to build tech products to serve all Penn students, and we recognize that goal requires a decent amount of commitment and technical experience. 
           We meet for 4 hours each week to work on projects, discuss future product roadmaps, and learn more about the technologies we use. 
-          Members are also expected to work outside of GBMs when necessary to meet product goals. 
+          Members are also expected to work outside of GBMs when necessary to meet product goals.
+          While technical ability varies when joining Labs and our members are always learning, our focus on building production-ready products means that
+          we do require that members come in with technical ability, which we evaluate through the technical challenge of the application process.
         </p>
       </div>
     </section>
@@ -61,6 +63,7 @@ const Apply = (props) => (
                           <li>iOS</li>
                         </ul>
                       </p>
+
                       <p>
                         <a href="https://stackshare.io/penn-labs">Check out our stack</a> to find out more about the frameworks and tools we use in our products.
                       </p>
@@ -169,7 +172,7 @@ const Apply = (props) => (
                     </h3>
                     <p style={{paddingTop: "0px"}}>
                       Skill levels vary when joining Labs, but building and maintaining production-quality products used by thousands of 
-                      students every day is great, real-world experience that's hard to get anywhere else on campus.
+                      students every day is great real-world experience that's hard to get anywhere else on campus.
                       Our members are highly sought after, becoming teaching assistants,
                       working for prestigious companies around the world, and launching their own startups.
                     </p>
@@ -185,7 +188,7 @@ const Apply = (props) => (
                     </h3>
                     <p style={{paddingTop: "0px"}}>
                       We're proud of the community we've built inside Penn Labs. Outside of working on all our products, we're a group of friends who support each other.
-                      We have a co-ed rec basketball team (2018-19 champions!), board game nights, study sessions, and just hang out.
+                      We have a co-ed rec basketball team (2018-19 champions!), board game nights, study sessions, and also just hang out.
                       It's always great to get away with friends to avoid thinking about bugs for a while.
                     </p>
                   </div>

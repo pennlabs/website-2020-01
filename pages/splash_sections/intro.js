@@ -25,6 +25,7 @@ const Intro = (props) => (
           <Spring from={{ opacity: 0 }} to={{ opacity: 1, borderColor: "#209CEE", color: "#209CEE" }} delay={500} config={config.molasses}>
             {props => (
               <div style={props}>
+              <a class="button is-success is-medium" href="/apply" style={{marginRight: "0.5rem"}}>Apply Now <span class="icon is-small" style={{marginLeft: "0.1rem"}}><i class="fa fa-angle-double-right"></i></span> </a>
               <a href="/products" style={{ marginRight: "0.5rem" }} className="button is-info is-medium"> View Products </a>
               <a href="https://github.com/pennlabs" className="button is-light is-medium"> <i style={{marginRight: "0.5rem"}} class="fab fa-github"></i> GitHub </a>
               </div>
