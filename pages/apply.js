@@ -7,13 +7,22 @@ const Apply = (props) => (
     <section class="hero is-info is-small">
       <div class="hero-body">
         <div class="container">
-          <h1 class="title" style={{color: "azure", fontSize: "2.8rem"}}>
-            Come build with us!
-          </h1>
-          <h2 class="subtitle">
-            Join the Penn Labs community this fall.
-          </h2>
-          <a class="button is-large is-info is-rounded is-inverted is-focused" href="https://airtable.com/shrdwaiRWZoqtr29O">Apply Now <span class="icon is-small" style={{marginLeft: "0.1rem"}}><i class="fa fa-angle-double-right"></i></span></a>
+          <div class="columns">
+            <div class="column">
+            <h1 class="title" style={{color: "azure", fontSize: "2.8rem"}}>
+              Come build with us!
+            </h1>
+            <h2 class="subtitle">
+              Join the Penn Labs community this fall.
+            </h2>
+            <a class="button is-large is-info is-rounded is-inverted is-focused" href="https://airtable.com/shrdwaiRWZoqtr29O">Apply Now <span class="icon is-small" style={{marginLeft: "0.1rem"}}><i class="fa fa-angle-double-right"></i></span></a>
+            </div>
+            <div class="column">
+            <figure class="image" style={{width: "100%"}}>
+              <img src="https://pennlabs-assets.s3.amazonaws.com/Penn+Labs+team+2-1.jpg" style={{borderRadius: "5px"}}></img>
+            </figure>
+            </div>
+          </div>
         </div>
       </div>
     </section>
