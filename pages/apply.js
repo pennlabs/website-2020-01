@@ -32,10 +32,8 @@ const Apply = (props) => (
           <br/><br/> Some Penn Labs products that you may be familiar with include Penn Course Review, Penn Mobile, and Penn Course Alert. We’ve had more than 100,000 total users of our products. Through the Common Funding Application we build and maintain, we've helped processed over $930,000 in grants for student organizations.
           <br/><br/> Our mission is to build tech products to serve all Penn students, and we recognize that goal requires a decent amount of commitment and technical experience. 
           We meet for 4 hours each week to work on projects, discuss future product roadmaps, and learn more about the technologies we use. 
-          Members are also expected to work outside of GBMs when necessary to meet product goals.
-          While technical ability varies when joining Labs and our members are always learning, our focus on building production-ready products means that
-          we do require that members come in with technical ability, which we evaluate through the technical challenge portion of the application process.
-          <br/><br/> Come out to our info session <b>Tuesday 9/3</b> and <b>Thursday 9/5</b> from <b>6-7pm in JMHH 365</b> to learn more and meet our members! Reach out to contact@pennlabs.org with any questions.
+          Members are also expected to work outside of meetings to meet product goals. While technical ability varies when joining Penn Labs and our members are always learning, our commitment to building quality products means that we seek candidates with sufficient technical ability, which we evaluate through the technical challenge phase of the application process.
+          <br/><br/> Come out to our info sessions <b>Tuesday 9/3</b> and <b>Thursday 9/5</b> from <b>6-7pm in JMHH 365</b> to learn more and meet our members! And feel free to reach out to contact@pennlabs.org anytime.
         </p>
       </div>
     </section>
