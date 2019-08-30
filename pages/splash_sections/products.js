@@ -12,6 +12,7 @@ const Products = (props) => (
       </h2>
     <br/>
       <div className="columns is-multiline">
+        <ProductCard href="https://pennclubs.com/" img="https://pennclubs.com/static/img/peoplelogo.png" imgClassName="image is-64x64" title="Penn Clubs" desc="Penn Clubs is your central source of information about student organizations. Keep discovering new clubs throughout the year, not just at the SAC Fair. We aim to make the club applciation process less stressful!" />
         <ProductCard href="https://penncoursereview.com/" img="/static/img/PCR.png" imgClassName="image is-64x64" title="Penn Course Review" desc="Penn Course Review provides quantitative data on courses and professors to help students make informed decisions about coursework. It includes metrics for course difficulty and quality, professor quality, and more." />
         <ProductCard href="http://pennbasics.com/" img="/static/img/PennBasics.png" imgClassName="image is-64x64" title="Penn Basics" desc="Penn Basics aims to be your the one-stop spot for the basics of living at Penn. It aggregates essential data on dining, laundry, and study spaces. To be launched in Fall 2019!" />
         <ProductCard href="https://penncoursealert.com/" img="/static/img/PCA.png" imgClassName="image is-64x64" title="Penn Course Alert" desc="Penn Course Alert allows students to register for immediate alerts via email or text when full courses open up. Reduce the guesswork and uncertainty in course registration and make sure you get the in-demand courses you want!" />
