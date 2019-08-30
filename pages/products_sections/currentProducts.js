@@ -11,6 +11,12 @@ const CurrentProducts = (props) => (
     </div>
     <div className="columns is-multiline">
         <ProductCard
+          href="https://pennclubs.com"
+          img="https://pennclubs.com/static/img/peoplelogo.png"
+          title="Penn Clubs"
+          desc="Penn Clubs is your central source of information about student organizations. Keep discovering new clubs throughout the year, not just at the SAC Fair. We aim to make the club applciation process less stressful!"
+        />    
+        <ProductCard
           href="https://penncoursereview.com/"
           img="/static/img/PCR.png"
           title="Penn Course Review"
@@ -53,7 +59,7 @@ const CurrentProducts = (props) => (
           img="/static/img/OHQ-logo.png"
           title="Office Hours Queue"
           desc="Coming soon, Office Hours Queue will make office hours easier for both students and teaching assistants. Students: get the one-on-one help that you need, as quickly as possible. TAs: manage your queue, locate students faster, and offer more targeted help."
-        />
+        />    
     </div>
   </div>
 );
