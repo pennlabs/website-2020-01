@@ -51,11 +51,6 @@ const CurrentProducts = (props) => (
           desc="The Common Funding Application connects student organizations to various funding sources. Organizations can easily request event funding from a centralized application. Funding boards are able to review applications and ensure accountability."
         />
         <ProductCard
-          img="/static/img/pennclubs-logo.png"
-          title="Penn Clubs"
-          desc="Penn Clubs aims to be the centralized source of information about all student organizations at Penn. Students can discover new clubs, join mailing lists, and view open applications. Clubs can better publicize themselves and their events. To be launched in Fall 2019!"
-        />
-        <ProductCard
           img="/static/img/OHQ-logo.png"
           title="Office Hours Queue"
           desc="Coming soon, Office Hours Queue will make office hours easier for both students and teaching assistants. Students: get the one-on-one help that you need, as quickly as possible. TAs: manage your queue, locate students faster, and offer more targeted help."
