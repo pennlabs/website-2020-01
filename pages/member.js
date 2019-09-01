@@ -8,7 +8,7 @@ const Member = (props) => {
 return (
   <div>
     <Header />
-    <section className="section" style={{paddingTop:"1.5rem"}}>
+    <section className="section" style={{paddingTop:"1.5rem", minHeight:"calc(100vh - 196px)"}}>
       <div className="container" style={{marginTop:0}}>
         <a className="button is-rounded is-primary" href="/team">
           <span className="icon" style={{marginRight: "0.3rem"}}>
