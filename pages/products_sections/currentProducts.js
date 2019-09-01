@@ -14,7 +14,7 @@ const CurrentProducts = (props) => (
           href="https://pennclubs.com"
           img="https://pennclubs.com/static/img/peoplelogo.png"
           title="Penn Clubs"
-          desc="Penn Clubs is your central source of information about student organizations. Keep discovering new clubs throughout the year, not just at the SAC Fair. We aim to make the club applciation process less stressful!"
+          desc="Penn Clubs is your central source of information about student organizations. Keep discovering new clubs throughout the year, not just at the SAC Fair. We aim to make the club application process less stressful!"
         />    
         <ProductCard
           href="https://penncoursereview.com/"
