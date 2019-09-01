@@ -26,7 +26,6 @@ return (
 }
 
 Member.getInitialProps = async(query) => {
-  console.log(query.query.name);
   const res = await fetch('http://platform.pennlabs.org/org/members/?format=json')
   const members = await res.json()
   var member;

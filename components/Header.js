@@ -11,7 +11,6 @@ class Header extends React.Component {
   }
 
   toggleNav = () => {
-    console.log(!this.state.isActive);
     this.setState(prevState => ({
       isActive: !prevState.isActive
     }))
