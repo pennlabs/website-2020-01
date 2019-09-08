@@ -42,7 +42,7 @@ const Apply = (props) => (
           <br/><br/> Our mission is to build tech products to serve all Penn students, and we recognize that goal requires a decent amount of commitment and technical experience. 
           We meet for 4 hours each week to work on projects, discuss future product roadmaps, and learn more about the technologies we use. 
           Members are also expected to work outside of meetings to meet product goals. While technical ability varies when joining Penn Labs and our members are always learning, our commitment to building quality products means that we seek candidates with sufficient technical ability, which we evaluate through the technical challenge phase of the application process.
-          <br/><br/> Come out to our info sessions <b>Tuesday 9/3</b> and <b>Thursday 9/5</b> from <b>6-7pm in JMHH 365</b> to learn more and meet our members! And feel free to reach out to contact@pennlabs.org anytime.
+          <br/><br/> Come out to our info sessions <b>Tuesday 9/3</b> and <b>Thursday 9/5</b> from <b>6-7pm in JMHH 340</b> to learn more and meet our members! And feel free to reach out to contact@pennlabs.org anytime.
         </p>
       </div>
     </section>
