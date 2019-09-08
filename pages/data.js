@@ -70,7 +70,7 @@ Data.getInitialProps = async({ }) => {
     { 
       title: "Comment Generation", 
       tags: ['Penn Course Review', 'Deep Learning'], 
-      description: "Writing hollistic comments using a model trained on years of real data.s",
+      description: "Writing hollistic comments using a model trained on years of real data.",
       demo: "https://data.pennlabs.org", 
       code: "https://penn-sdk.resadthedocs.io/"
     },
