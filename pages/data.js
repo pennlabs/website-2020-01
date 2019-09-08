@@ -14,7 +14,7 @@ const Data = (props) => (
           </div>
           <div className="column is-half">
             <h1 class="title">
-              Data
+              Data Science
             </h1>
             <h2 class="subtitle">
               Interesting and responsible information about how people use our products.
@@ -23,7 +23,7 @@ const Data = (props) => (
               We've conducted a variety of experiments (we are Labs, after all) using the statistics and data that we collect through
               our dozens of products. We've made all our data analysis public for the Penn community to develop their own insights.
             </p>
-            <hr />
+            <br />
             {props.experiments.map((experiment) => (
               <div class="card" style={{borderRadius:"5px", marginBottom: "1rem"}}>
                 <div class="card-content">
@@ -37,8 +37,7 @@ const Data = (props) => (
                     </div>
                   </div>
                   <div class="content">
-                    <a href={experiment.demo} style={{marginRight: "0.2rem"}} className="button">Demo</a> 
-                    <a href={experiment.code} className="button">Code</a>
+                    <a href={experiment.demo} style={{marginRight: "0.2rem"}} className="button">Coming Soon</a> 
                   </div>
                 </div>
               </div>
@@ -65,6 +64,13 @@ Data.getInitialProps = async({ }) => {
       title: "Schedule Similarities", 
       tags: ['Penn Mobile', 'Data Analytics'], 
       description: "Understanding what makes students take certain classes *together*.",
+      demo: "https://data.pennlabs.org", 
+      code: "https://penn-sdk.resadthedocs.io/"
+    },
+    { 
+      title: "Comment Generation", 
+      tags: ['Penn Course Review', 'Deep Learning'], 
+      description: "Writing hollistic comments using a model trained on years of real data.s",
       demo: "https://data.pennlabs.org", 
       code: "https://penn-sdk.resadthedocs.io/"
     },
