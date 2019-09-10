@@ -10,12 +10,11 @@ const Apply = (props) => (
           <div class="columns">
             <div class="column">
             <h1 class="title" style={{color: "azure", fontSize: "2.8rem"}}>
-              Come build with us!
+              Thanks for your interest in Penn Labs!
             </h1>
             <h2 class="subtitle">
-              Join the Penn Labs community this fall.
+              We're no longer accepting Fall 2019 applications.
             </h2>
-            <a class="button is-large is-info is-rounded is-inverted is-focused" href="https://airtable.com/shrdwaiRWZoqtr29O">Apply Now <span class="icon is-small" style={{marginLeft: "0.1rem"}}><i class="fa fa-angle-double-right"></i></span></a>
             </div>
             <div class="column">
             <figure class="image" style={{width: "100%"}}>
