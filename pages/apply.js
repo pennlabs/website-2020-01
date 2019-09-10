@@ -120,9 +120,6 @@ const Apply = (props) => (
         <h1 class="title" style={{fontSize: "2.4rem"}}>
           Application Process
         </h1>
-        <h2 class="subtitle">
-            <a href="https://airtable.com/shrdwaiRWZoqtr29O">Apply here</a> by <b>Monday 9/9 at 11:59pm</b>
-          </h2>
         <p>
           If any of that gets you excited, we’d love for you to apply to Penn Labs! After the written application, we invite qualified candidates to our second round. This takes place in two parts:
         </p>
