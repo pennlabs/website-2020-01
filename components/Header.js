@@ -64,9 +64,6 @@ class Header extends React.Component {
               <a className="navbar-item" href="/resources">
                 Resources
               </a>
-              <a className="navbar-item" href="/apply">
-                Apply
-              </a>
               <a className="navbar-item" href="https://medium.com/@pennappslabs">
                 Blog
               </a>
