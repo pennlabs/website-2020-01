@@ -20,7 +20,7 @@ const About = (props) => (
           <img src="https://i.imgur.com/CmhAG25.jpg" />
         </figure>
         <br />
-        <a class="button is-success is-medium" href="/apply"> Do think we look cool? Join Us <span class="icon is-small" style={{marginLeft: "0.1rem"}}><i class="fa fa-angle-double-right"></i></span> </a>
+        {/* <a class="button is-success is-medium" href="/apply"> Do think we look cool? Join Us <span class="icon is-small" style={{marginLeft: "0.1rem"}}><i class="fa fa-angle-double-right"></i></span> </a> */}
       </div>
     </section>
 </div>
