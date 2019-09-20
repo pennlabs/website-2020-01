@@ -16,9 +16,9 @@ const About = () => (
         <div className="columns is-multiline">
           <InfoCard
             titleChild={
-              <p class="title is-3" style={{ paddingBottom: '0.5rem' }}>
+              <p className="title is-3" style={{ paddingBottom: '0.5rem' }}>
                 <strong
-                  class="has-text-weight-bold"
+                  className="has-text-weight-bold"
                   style={{ color: '#209CEE' }}
                 >
                   100,000+{' '}
@@ -30,9 +30,9 @@ const About = () => (
           />
           <InfoCard
             titleChild={
-              <p class="title is-3" style={{ paddingBottom: '0.5rem' }}>
+              <p className="title is-3" style={{ paddingBottom: '0.5rem' }}>
                 <strong
-                  class="has-text-weight-bold"
+                  className="has-text-weight-bold"
                   style={{ color: '#209CEE' }}
                 >
                   60+{' '}
@@ -44,9 +44,9 @@ const About = () => (
           />
           <InfoCard
             titleChild={
-              <p class="title is-3" style={{ paddingBottom: '0.5rem' }}>
+              <p className="title is-3" style={{ paddingBottom: '0.5rem' }}>
                 <strong
-                  class="has-text-weight-bold"
+                  className="has-text-weight-bold"
                   style={{ color: '#209CEE' }}
                 >
                   7+{' '}
@@ -58,9 +58,9 @@ const About = () => (
           />
           <InfoCard
             titleChild={
-              <p class="title is-3" style={{ paddingBottom: '0.5rem' }}>
+              <p className="title is-3" style={{ paddingBottom: '0.5rem' }}>
                 <strong
-                  class="has-text-weight-bold"
+                  className="has-text-weight-bold"
                   style={{ color: '#209CEE' }}
                 >
                   $930,000+{' '}
@@ -71,11 +71,11 @@ const About = () => (
             desc="through our Common Funding Application portal."
           />
         </div>
-        <figure class="image">
+        <figure className="image">
           <img src="https://i.imgur.com/CmhAG25.jpg" />
         </figure>
         <br />
-        {/* <a class="button is-success is-medium" href="/apply"> Do think we look cool? Join Us <span class="icon is-small" style={{marginLeft: "0.1rem"}}><i class="fa fa-angle-double-right"></i></span> </a> */}
+        {/* <a className="button is-success is-medium" href="/apply"> Do think we look cool? Join Us <span className="icon is-small" style={{marginLeft: "0.1rem"}}><i className="fa fa-angle-double-right"></i></span> </a> */}
       </div>
     </section>
   </div>

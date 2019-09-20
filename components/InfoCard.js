@@ -24,17 +24,17 @@ class InfoCard extends React.Component {
       <div className="column is-half">
         <div className="card" style={{ borderRadius: 5, borderWidth: 0 }}>
           <div className="card-content">
-            <div class="media">
+            <div className="media">
               {this.props.img ? (
-                <div class="media-left">
-                  <figure class={this.props.imgclassName}>
+                <div className="media-left">
+                  <figure className={this.props.imgclassName}>
                     <img src={this.props.img} alt="Placeholder image" />
                   </figure>
                 </div>
               ) : (
                 <div></div>
               )}
-              <div class="content">
+              <div className="content">
                 {this.props.titleChild}
                 {this.props.desc}
               </div>

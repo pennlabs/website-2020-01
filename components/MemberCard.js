@@ -40,7 +40,7 @@ class MemberCard extends React.Component {
               </div>
               <div className="card-content">
                 <h1
-                  class="has-text-weight-bold"
+                  className="has-text-weight-bold"
                   style={{
                     fontWeight: 500,
                     fontSize: '1.5rem',

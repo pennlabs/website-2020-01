@@ -2,20 +2,20 @@ import Layout from '../components/Layout'
 
 const Apply = () => (
   <Layout>
-    <section class="hero is-info is-small">
-      <div class="hero-body">
-        <div class="container">
-          <div class="columns">
-            <div class="column">
-              <h1 class="title" style={{ color: 'azure', fontSize: '2.8rem' }}>
+    <section className="hero is-info is-small">
+      <div className="hero-body">
+        <div className="container">
+          <div className="columns">
+            <div className="column">
+              <h1 className="title" style={{ color: 'azure', fontSize: '2.8rem' }}>
                 Thanks for your interest in Penn Labs!
               </h1>
-              <h2 class="subtitle">
+              <h2 className="subtitle">
                 We're no longer accepting Fall 2019 applications.
               </h2>
             </div>
-            <div class="column">
-              <figure class="image" style={{ width: '100%' }}>
+            <div className="column">
+              <figure className="image" style={{ width: '100%' }}>
                 <img
                   src="https://pennlabs-assets.s3.amazonaws.com/Penn+Labs+team+2-1.jpg"
                   style={{ borderRadius: '5px' }}
@@ -27,24 +27,24 @@ const Apply = () => (
       </div>
     </section>
 
-    <section class="section">
-      <div class="container">
+    <section className="section">
+      <div className="container">
         <div className="columns is-centered">
           <div className="column is-two-thirds">
-            <h1 class="title" style={{ fontSize: '2.4rem' }}>
+            <h1 className="title" style={{ fontSize: '2.4rem' }}>
               Why Penn Labs?
             </h1>
-            <h2 class="subtitle" style={{ fontSize: '1.2rem' }}>
+            <h2 className="subtitle" style={{ fontSize: '1.2rem' }}>
               Because we{' '}
               <span
-                class="icon is-small"
+                className="icon is-small"
                 style={{
                   color: '#F56F71',
                   marginLeft: '0.3rem',
                   marginRight: '0.3rem',
                 }}
               >
-                <i class="fa fa-heart"></i>
+                <i className="fa fa-heart"></i>
               </span>{' '}
               creators.
             </h2>
@@ -83,18 +83,18 @@ const Apply = () => (
     </section>
 
     <section
-      class="section"
+      className="section"
       style={{ backgroundColor: '#209CEE', color: 'azure' }}
     >
-      <div class="container" style={{ width: '75%' }}>
-        <h1 class="title" style={{ fontSize: '2.4rem', color: 'azure' }}>
+      <div className="container" style={{ width: '75%' }}>
+        <h1 className="title" style={{ fontSize: '2.4rem', color: 'azure' }}>
           Open Roles
         </h1>
-        <div class="columns" style={{ marginTop: '2rem' }}>
-          <div class="column is-half">
-            <div class="box">
-              <div class="card-content">
-                <div class="content">
+        <div className="columns" style={{ marginTop: '2rem' }}>
+          <div className="column is-half">
+            <div className="box">
+              <div className="card-content">
+                <div className="content">
                   <h3>
                     <strong>Software Engineering</strong>
                   </h3>
@@ -128,10 +128,10 @@ const Apply = () => (
             </div>
           </div>
 
-          <div class="column is-half">
-            <div class="box">
-              <div class="card-content">
-                <div class="content">
+          <div className="column is-half">
+            <div className="box">
+              <div className="card-content">
+                <div className="content">
                   <h3>
                     <strong>Product Design</strong>
                   </h3>
@@ -146,9 +146,9 @@ const Apply = () => (
               </div>
             </div>
 
-            <div class="box">
-              <div class="card-content">
-                <div class="content">
+            <div className="box">
+              <div className="card-content">
+                <div className="content">
                   <h3>
                     <strong>Business Development</strong>
                   </h3>
@@ -168,9 +168,9 @@ const Apply = () => (
       </div>
     </section>
 
-    <section class="section">
-      <div class="container" style={{ width: '75%' }}>
-        <h1 class="title" style={{ fontSize: '2.4rem' }}>
+    <section className="section">
+      <div className="container" style={{ width: '75%' }}>
+        <h1 className="title" style={{ fontSize: '2.4rem' }}>
           Application Process
         </h1>
         <p>
@@ -198,18 +198,18 @@ const Apply = () => (
     </section>
 
     <section
-      class="section"
+      className="section"
       style={{ backgroundColor: '#209CEE', color: 'azure' }}
     >
-      <div class="container" style={{ width: '75%' }}>
-        <h1 class="title" style={{ fontSize: '2.4rem', color: 'azure' }}>
+      <div className="container" style={{ width: '75%' }}>
+        <h1 className="title" style={{ fontSize: '2.4rem', color: 'azure' }}>
           More about Us
         </h1>
-        <div class="columns" style={{ marginTop: '2rem' }}>
-          <div class="column is-half">
-            <div class="box">
-              <div class="card-content">
-                <div class="content">
+        <div className="columns" style={{ marginTop: '2rem' }}>
+          <div className="column is-half">
+            <div className="box">
+              <div className="card-content">
+                <div className="content">
                   <h3>
                     <strong>Iconic Products</strong>
                   </h3>
@@ -224,9 +224,9 @@ const Apply = () => (
               </div>
             </div>
 
-            <div class="box">
-              <div class="card-content">
-                <div class="content">
+            <div className="box">
+              <div className="card-content">
+                <div className="content">
                   <h3>
                     <strong>Modern Engineering</strong>
                   </h3>
@@ -242,10 +242,10 @@ const Apply = () => (
             </div>
           </div>
 
-          <div class="column is-half">
-            <div class="box">
-              <div class="card-content">
-                <div class="content">
+          <div className="column is-half">
+            <div className="box">
+              <div className="card-content">
+                <div className="content">
                   <h3>
                     <strong>Hone Your Skills</strong>
                   </h3>
@@ -262,9 +262,9 @@ const Apply = () => (
               </div>
             </div>
 
-            <div class="box">
-              <div class="card-content">
-                <div class="content">
+            <div className="box">
+              <div className="card-content">
+                <div className="content">
                   <h3>
                     <strong>Lots of Fun</strong>
                   </h3>

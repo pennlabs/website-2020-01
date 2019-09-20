@@ -28,12 +28,12 @@ const Club = () => (
             <p className="subtitle">Upcoming Events: </p>
             <div className="columns">
               <div className="column">
-                <div class="card">
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-content">
-                        <p class="title is-4">Coffee Bar</p>
-                        <p class="subtitle is-6">
+                <div className="card">
+                  <div className="card-content">
+                    <div className="media">
+                      <div className="media-content">
+                        <p className="title is-4">Coffee Bar</p>
+                        <p className="subtitle is-6">
                           {' '}
                           <time datetime="2016-1-1">
                             11:09 PM - 1 Jan 2016
@@ -42,7 +42,7 @@ const Club = () => (
                       </div>
                     </div>
 
-                    <div class="content">
+                    <div className="content">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Phasellus nec iaculis mauris. <a>@bulmaio</a>.
                       <a href="#">#css</a> <a href="#">#responsive</a>
@@ -50,12 +50,12 @@ const Club = () => (
                   </div>
                 </div>
                 <br />
-                <div class="card">
-                  <div class="card-content">
-                    <div class="media">
-                      <div class="media-content">
-                        <p class="title is-4">Coffee Bar</p>
-                        <p class="subtitle is-6">
+                <div className="card">
+                  <div className="card-content">
+                    <div className="media">
+                      <div className="media-content">
+                        <p className="title is-4">Coffee Bar</p>
+                        <p className="subtitle is-6">
                           {' '}
                           <time datetime="2016-1-1">
                             11:09 PM - 1 Jan 2016
@@ -64,7 +64,7 @@ const Club = () => (
                       </div>
                     </div>
 
-                    <div class="content">
+                    <div className="content">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Phasellus nec iaculis mauris. <a>@bulmaio</a>.
                       <a href="#">#css</a> <a href="#">#responsive</a>

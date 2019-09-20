@@ -33,7 +33,7 @@ class AlumniCard extends React.Component {
             <div className="card" style={{ borderRadius: 5, borderWidth: 0 }}>
               <div className="card-content">
                 <h1
-                  class="has-text-weight-bold"
+                  className="has-text-weight-bold"
                   style={{
                     fontWeight: 500,
                     fontSize: '1.5rem',

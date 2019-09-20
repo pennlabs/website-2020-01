@@ -2,11 +2,11 @@ import Layout from '../components/Layout'
 
 const Resources = props => (
   <Layout>
-    <div class="container" style={{ marginTop: '5rem' }}>
+    <div className="container" style={{ marginTop: '5rem' }}>
       <div className="columns">
         <div className="column is-half">
-          <h1 class="title">Resources</h1>
-          <h2 class="subtitle">
+          <h1 className="title">Resources</h1>
+          <h2 className="subtitle">
             Tutorials and data for building your own products.
           </h2>
           <p>
@@ -18,23 +18,23 @@ const Resources = props => (
           <hr />
           {props.resources.map(resource => (
             <div
-              class="card"
+              className="card"
               style={{ borderRadius: '5px', marginBottom: '1rem' }}
             >
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-left">
-                    <figure class="image is-48x48">
+              <div className="card-content">
+                <div className="media">
+                  <div className="media-left">
+                    <figure className="image is-48x48">
                       <img src={resource.src} alt="Placeholder image" />
                     </figure>
                   </div>
-                  <div class="media-content">
-                    <p class="title is-4">{resource.title}</p>
-                    <p class="subtitle is-6">
+                  <div className="media-content">
+                    <p className="title is-4">{resource.title}</p>
+                    <p className="subtitle is-6">
                       {resource.tags.map(tag => (
                         <span
                           style={{ marginRight: '0.2rem' }}
-                          class="tag is-light"
+                          className="tag is-light"
                         >
                           {tag}
                         </span>
@@ -42,7 +42,7 @@ const Resources = props => (
                     </p>
                   </div>
                 </div>
-                <div class="content">
+                <div className="content">
                   <a
                     href={resource.demo}
                     style={{ marginRight: '0.2rem' }}
@@ -60,7 +60,7 @@ const Resources = props => (
         </div>
         <div className="column is-quarter" style={{ align: 'right' }} />
         <div className="column is-quarter">
-          <figure class="image" style={{ width: '200px' }}>
+          <figure className="image" style={{ width: '200px' }}>
             <img src="/static/img/stack.png" />
             <br />
           </figure>

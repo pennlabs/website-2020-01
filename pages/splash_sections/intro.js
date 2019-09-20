@@ -42,7 +42,7 @@ const Intro = props => (
           >
             {props => (
               <div style={props}>
-                {/* <a class="button is-success is-medium" href="/apply" style={{marginRight: "0.5rem"}}>Join Us <span class="icon is-small" style={{marginLeft: "0.1rem"}}><i class="fa fa-angle-double-right"></i></span> </a> */}
+                {/* <a className="button is-success is-medium" href="/apply" style={{marginRight: "0.5rem"}}>Join Us <span className="icon is-small" style={{marginLeft: "0.1rem"}}><i className="fa fa-angle-double-right"></i></span> </a> */}
                 <a
                   href="/products"
                   style={{ marginRight: '0.5rem' }}
@@ -58,7 +58,7 @@ const Intro = props => (
                   {' '}
                   <i
                     style={{ marginRight: '0.5rem' }}
-                    class="fab fa-github"
+                    className="fab fa-github"
                   ></i>{' '}
                   GitHub{' '}
                 </a>

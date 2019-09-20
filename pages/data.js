@@ -2,17 +2,17 @@ import Layout from '../components/Layout'
 
 const Data = props => (
   <Layout>
-    <div class="container" style={{ marginTop: '5rem' }}>
+    <div className="container" style={{ marginTop: '5rem' }}>
       <div className="columns">
         <div className="column is-quarter">
-          <figure class="image" style={{ width: '200px' }}>
+          <figure className="image" style={{ width: '200px' }}>
             <img src="/static/img/stack.png" />
             <br />
           </figure>
         </div>
         <div className="column is-half">
-          <h1 class="title">Data Science</h1>
-          <h2 class="subtitle">
+          <h1 className="title">Data Science</h1>
+          <h2 className="subtitle">
             Interesting and responsible information about how people use our
             products.
           </h2>
@@ -25,18 +25,18 @@ const Data = props => (
           <br />
           {props.experiments.map(experiment => (
             <div
-              class="card"
+              className="card"
               style={{ borderRadius: '5px', marginBottom: '1rem' }}
             >
-              <div class="card-content">
-                <div class="media">
-                  <div class="media-content">
-                    <p class="title is-4">{experiment.title}</p>
-                    <p class="subtitle is-6">
+              <div className="card-content">
+                <div className="media">
+                  <div className="media-content">
+                    <p className="title is-4">{experiment.title}</p>
+                    <p className="subtitle is-6">
                       {experiment.tags.map(tag => (
                         <span
                           style={{ margin: '0.5rem', marginLeft: 0 }}
-                          class="tag is-light"
+                          className="tag is-light"
                         >
                           {tag}
                         </span>
@@ -46,7 +46,7 @@ const Data = props => (
                     </p>
                   </div>
                 </div>
-                <div class="content">
+                <div className="content">
                   <a
                     href={experiment.demo}
                     style={{ marginRight: '0.2rem' }}

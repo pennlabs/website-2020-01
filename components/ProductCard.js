@@ -25,23 +25,23 @@ class ProductCard extends React.Component {
           <a href={this.props.href}>
             <div className="card" style={{ borderRadius: 5, borderWidth: 0 }}>
               <div className="card-content">
-                <div class="media">
-                  <div class="media-left">
+                <div className="media">
+                  <div className="media-left">
                     {this.props.img ? (
-                      <figure class="image is-64x64">
+                      <figure className="image is-64x64">
                         <img src={this.props.img} alt="Placeholder image" />
                       </figure>
                     ) : (
                       <div></div>
                     )}
                   </div>
-                  <div class="media-content">
+                  <div className="media-content">
                     <div className="content">
                       <div style={{ paddingBottom: '0.5rem' }}>
                         {this.props.titleChild ? (
                           this.props.titleChild
                         ) : (
-                          <p class="title is-4">{this.props.title}</p>
+                          <p className="title is-4">{this.props.title}</p>
                         )}
                         {this.props.tag}
                       </div>
