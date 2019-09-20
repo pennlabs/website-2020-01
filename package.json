@@ -1,4 +1,9 @@
 {
+  "name": "pennlabs.org",
+  "private": false,
+  "description": "Website for Penn Labs",
+  "version": "1.0.0",
+  "author": "Penn Labs <info@pennlabs.org>",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
     "bulma": "^0.7.2",
@@ -7,6 +12,7 @@
     "next": "^7.0.2",
     "node": "^10.11.0",
     "node-sass": "^4.11.0",
+    "prop-types": "^15.7.2",
     "react": "^16.4.2",
     "react-dimensions": "^1.3.1",
     "react-dom": "^16.4.2",
