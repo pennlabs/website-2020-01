@@ -4,6 +4,8 @@ import AlumniCard from '../components/AlumniCard'
 
 import fetch from 'isomorphic-fetch'
 
+// TODO this page does not load
+
 const Alumni = props => (
   <div>
     <Header />

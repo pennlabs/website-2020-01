@@ -1,14 +1,14 @@
-import posed from "react-pose";
-import React from 'react';
+import React from 'react'
+// import posed from 'react-pose'
 
-const Square = posed.div({
-  idle: { scale: 1 },
-  hovered: { scale: 1.05 }
-});
+// const Square = posed.div({
+//   idle: { scale: 1 },
+//   hovered: { scale: 1.05 },
+// })
 
 class InfoCard extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       hovering: false,
     }
@@ -22,25 +22,29 @@ class InfoCard extends React.Component {
   render() {
     return (
       <div className="column is-half">
-
-          <div className="card" style={{borderRadius: 5, borderWidth: 0}}>
-            <div className="card-content">
-              <div class="media">
-                {this.props.img ? (
-                  <div class="media-left">
-                    <figure class={this.props.imgclassName}>
-                      <img src={this.props.img} alt="Placeholder image" />
-                    </figure>
-                  </div>): <div></div>}
-                <div class="content">
-                  {this.props.titleChild}
-                  {this.props.desc}
+        <div className="card" style={{ borderRadius: 5, borderWidth: 0 }}>
+          <div className="card-content">
+            <div class="media">
+              {this.props.img ? (
+                <div class="media-left">
+                  <figure class={this.props.imgclassName}>
+                    <img src={this.props.img} alt="Placeholder image" />
+                  </figure>
                 </div>
+              ) : (
+                <div></div>
+              )}
+              <div class="content">
+                {this.props.titleChild}
+                {this.props.desc}
               </div>
             </div>
           </div>
-      </div>)}
-    }
-            // </Square>
+        </div>
+      </div>
+    )
+  }
+}
+// </Square>
 
-export default InfoCard;
+export default InfoCard

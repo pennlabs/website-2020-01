@@ -1,26 +1,42 @@
-const Contact = (props) => (
+const Contact = () => (
   <div>
-    <section className="section" style={{backgroundColor: "#209CEE", color:"azure"}}>
+    <section
+      className="section"
+      style={{ backgroundColor: '#209CEE', color: 'azure' }}
+    >
       <div className="container">
-      <h1 className="title has-text-weight-bold" style={{color: "azure", fontSize:"2.8rem"}}>
+        <h1
+          className="title has-text-weight-bold"
+          style={{ color: 'azure', fontSize: '2.8rem' }}
+        >
           Contact:
         </h1>
-        <h2 className="subtitle" style={{color: "azure"}}>
-          Your feedback means everything to us. 
+        <h2 className="subtitle" style={{ color: 'azure' }}>
+          Your feedback means everything to us.
         </h2>
         <p>
-          Is there something we can do better? Want to learn more about Labs? <br />
-          Submit bug fixes, new feature suggestions, questions, and comments here!
+          Is there something we can do better? Want to learn more about Labs?{' '}
+          <br />
+          Submit bug fixes, new feature suggestions, questions, and comments
+          here!
         </p>
-        <br/>
-        <div style={{width:"60%"}}>
-          <form action="https://formspree.io/contact@pennlabs.org" method="POST">
+        <br />
+        <div style={{ width: '60%' }}>
+          <form
+            action="https://formspree.io/contact@pennlabs.org"
+            method="POST"
+          >
             <div className="field">
               <label className="label has-text-weight-semibold">
                 Name (optional)
               </label>
               <div className="control">
-                  <input className="input" type="text" placeholder="Hi there!" name="name" />
+                <input
+                  className="input"
+                  type="text"
+                  placeholder="Hi there!"
+                  name="name"
+                />
               </div>
             </div>
             <div className="field">
@@ -28,29 +44,34 @@ const Contact = (props) => (
                 Email (optional)
               </label>
               <div className="control">
-                  <input className="input" type="email" placeholder="We'll send our response to this email" name="email"/>
+                <input
+                  className="input"
+                  type="email"
+                  placeholder="We'll send our response to this email"
+                  name="email"
+                />
               </div>
             </div>
             <div className="field">
-              <label className="label has-text-weight-semibold">
-                Message
-              </label>
+              <label className="label has-text-weight-semibold">Message</label>
               <div className="control">
-                <textarea className="textarea" placeholder="What's up?" name="message"></textarea>
+                <textarea
+                  className="textarea"
+                  placeholder="What's up?"
+                  name="message"
+                ></textarea>
               </div>
             </div>
-            <div className="field" style={{width:"100%"}}>
-              <div className="control clear" style={{textAlign:"left"}}>
-                <button className="button is-medium is-light">
-                  Send
-                </button>
+            <div className="field" style={{ width: '100%' }}>
+              <div className="control clear" style={{ textAlign: 'left' }}>
+                <button className="button is-medium is-light">Send</button>
               </div>
             </div>
           </form>
         </div>
       </div>
     </section>
-</div>
-);
+  </div>
+)
 
-export default Contact;
+export default Contact

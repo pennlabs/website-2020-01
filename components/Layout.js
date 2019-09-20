@@ -9,7 +9,7 @@ export default ({ children }) => (
     <Head />
     <body>
       <Header />
-      {children}
+      <div style={{ minHeight: 'calc(100vh - 42px' }}>{children}</div>
       <Footer />
     </body>
   </>
