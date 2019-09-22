@@ -1,19 +1,16 @@
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Layout from '../components/Layout'
 
-import Products from './splash_sections/products';
-import Intro from './splash_sections/intro';
-import About from './splash_sections/about';
-import News from './splash_sections/news';
+import Products from './splash_sections/products'
+import Intro from './splash_sections/intro'
+import About from './splash_sections/about'
+// import News from './splash_sections/news'
 
-const Index = (props) => (
-  <div>
-    <Header />
+const Index = ({}) => (
+  <Layout>
     <Intro />
     <Products />
     <About />
-    <Footer />
-  </div>
-);
+  </Layout>
+)
 
-export default Index;
+export default Index

@@ -1,20 +1,44 @@
+import Layout from '../components/Layout'
+
+const data = [
+  {
+    product: 'Penn Mobile iOS',
+    link: 'https://www.iubenda.com/privacy-policy/16589027',
+  },
+  {
+    product: 'Penn Mobile Android',
+    link: 'https://www.iubenda.com/privacy-policy/88368849',
+  },
+  {
+    product: 'Penn Course Review',
+    link: 'https://www.iubenda.com/privacy-policy/86347108',
+  },
+  {
+    product: 'Penn Course Alert',
+    link: 'https://www.iubenda.com/privacy-policy/50589026',
+  },
+  {
+    product: 'Penn Course Search',
+    link: 'https://www.iubenda.com/privacy-policy/77494274',
+  },
+]
+
 const Privacy = () => (
-  <p>
-  Penn Mobile iOS: https://www.iubenda.com/privacy-policy/16589027
-  Privacy Policy of Penn Mobile (iOS)
-This Application collects some Personal Data from its Users.
-Penn Course Review: https://www.iubenda.com/privacy-policy/86347108
-Privacy Policy of Penn Course Review
-This Application collects some Personal Data from its Users.
-Penn Course Alert: https://www.iubenda.com/privacy-policy/50589026
-Privacy Policy of Penn Course Alert
-This Application collects some Personal Data from its Users.
-Penn Course Search: https://www.iubenda.com/privacy-policy/77494274
-Privacy Policy of Penn Course Search
-This Application collects some Personal Data from its Users.
-Penn Mobile Android: https://www.iubenda.com/privacy-policy/88368849
-Privacy Policy of Penn Mobile (Android)
-This Application collects some Personal Data from its Users.
-  </p>
-);
-export default Privacy;
+  <Layout>
+    <section>
+      <div className="container">
+        <br />
+        {data.map(({ product, link }) => (
+          <p key={product}>
+            <strong>{product}:&nbsp;</strong>
+            <a href={link}>Privacy Policy</a>; this Application collects some
+            Personal Data from its Users.
+          </p>
+        ))}
+        <br />
+      </div>
+    </section>
+  </Layout>
+)
+
+export default Privacy
