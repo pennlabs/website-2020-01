@@ -3,7 +3,7 @@ import MemberCard from '../components/MemberCard'
 
 import fetch from 'isomorphic-fetch'
 
-const Members = props => (
+const Members = ({ teams }) => (
   <Layout>
     <section className="section">
       <div className="container">
@@ -19,22 +19,24 @@ const Members = props => (
         </p>
 
         <br />
-        {props.teams.map(team => (
-          <div>
+        {teams.map(({ name, description, members }) => (
+          <div key={name}>
             <h4
               className="title is-4"
               style={{ fontWeight: 800, marginBottom: '0.3rem' }}
             >
-              {team.name}
+              {name}
             </h4>
-            <p> {team.description} </p>
+            <p> {description} </p>
             <br />
             <div className="columns is-multiline">
-              {team.members ? (
-                team.members.map(member => <MemberCard member={member} />)
-              ) : (
-                <div></div>
-              )}
+              {members &&
+                members.map(member => (
+                  <MemberCard
+                    {...member}
+                    key={member.student && member.student.name}
+                  />
+                ))}
             </div>
             <br />
           </div>
