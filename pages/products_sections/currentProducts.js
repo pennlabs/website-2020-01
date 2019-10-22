@@ -39,7 +39,7 @@ const products = [
     img: '/static/img/PCP.png',
     title: 'Penn Course Plan',
     desc:
-      'Penn Course Plan combines course rating insights with an easy-to-use mock scheduling tool. Choose the best schedule for your semester, with at-a-glance schedule insights and comparisons coming soon!',
+      'Penn Course Plan combines course rating insights with an easy-to-use mock scheduling tool. Choose the best schedule for your semester, with at-a-glance schedule insights and comparisons!',
   },
   {
     href: 'https://penncfa.com/accounts/login/?next=/',
