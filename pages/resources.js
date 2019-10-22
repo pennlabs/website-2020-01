@@ -75,7 +75,7 @@ Resources.getInitialProps = async ({}) => {
   const resources = [
     {
       title: 'Penn SDK',
-      src: '/static/img/PCS.png',
+      src: '/static/img/PCP.png',
       tags: ['Python', 'SDK'],
       demo: 'https://data.pennlabs.org',
       documentation: 'https://penn-sdk.readthedocs.io/',
