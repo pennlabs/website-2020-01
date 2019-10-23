@@ -27,7 +27,7 @@ const Products = () => (
             img="https://pennclubs.com/static/img/peoplelogo.png"
             imgClassName="image is-64x64"
             title="Penn Clubs"
-            desc="Penn Clubs is your central source of information about student organizations. Keep discovering new clubs throughout the year, not just at the SAC Fair. We aim to make the club application process less stressful!"
+            desc="Penn Clubs is your central source of information about student organizations. Keep discovering new clubs throughout the year, not just at the SAC Fair. We aim to make the club discovery process less stressful!"
           />
           <ProductCard
             href="https://penncoursereview.com/"
@@ -41,7 +41,7 @@ const Products = () => (
             img="/static/img/PennBasics.png"
             imgClassName="image is-64x64"
             title="Penn Basics"
-            desc="Penn Basics aims to be your the one-stop spot for the basics of living at Penn. It aggregates essential data on dining, laundry, and study spaces. To be launched in Fall 2019!"
+            desc="Penn Basics aims to be your the one-stop spot for the basics of living at Penn. It aggregates essential data on dining, laundry, and study spaces. Beta version out now!"
           />
           <ProductCard
             href="https://penncoursealert.com/"

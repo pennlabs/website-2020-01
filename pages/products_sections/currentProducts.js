@@ -6,7 +6,7 @@ const products = [
     img: '/static/img/clubs.png',
     title: 'Penn Clubs',
     desc:
-      'Penn Clubs is your central source of information about student organizations. Keep discovering new clubs throughout the year, not just at the SAC Fair. We aim to make the club application process less stressful!',
+      "Penn Clubs is your central source of information about student organizations. Keep discovering new clubs throughout the year, not just at the SAC Fair. We aim to make the club discovery process less stressful!",
   },
   {
     href: 'https://penncoursereview.com/',
@@ -39,7 +39,7 @@ const products = [
     img: '/static/img/PCP.png',
     title: 'Penn Course Plan',
     desc:
-      'Penn Course Plan combines course rating insights with an easy-to-use mock scheduling tool. Choose the best schedule for your semester, with at-a-glance schedule insights and comparisons!',
+      'Penn Course Plan combines course rating insights with an easy-to-use mock scheduling tool. Create the best schedule for your semester, with at-a-glance schedule insights for easy comparisons',
   },
   {
     href: 'https://penncfa.com/accounts/login/?next=/',
