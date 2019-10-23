@@ -72,10 +72,10 @@ const About = () => (
           />
         </div>
         <figure className="image">
-          <img src="https://i.imgur.com/CmhAG25.jpg" />
+          <img src="/static/img/1labs-group.jpg" />
         </figure>
+        <p className="has-text-grey is-size-7" style={{marginTop: "1rem"}}> Fall 2019 </p>
         <br />
-        {/* <a className="button is-success is-medium" href="/apply"> Do think we look cool? Join Us <span className="icon is-small" style={{marginLeft: "0.1rem"}}><i className="fa fa-angle-double-right"></i></span> </a> */}
       </div>
     </section>
   </div>
