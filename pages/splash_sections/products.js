@@ -58,11 +58,11 @@ const Products = () => (
             desc="Penn Mobile is the university's first official mobile app. On iOS and Android, Penn Mobile provides live dining hall menus and hours, laundry machine availability, study room booking, top campus news, and school support numbers."
           />
           <ProductCard
-            href="https://penncoursesearch.com/"
+            href="https://penncourseplan.com/"
             img="/static/img/PCP.png"
             imgClassName="image is-64x64"
-            title="Penn Course Search"
-            desc="Penn Course Search combines course rating insights with an easy-to-use mock scheduling tool. Choose the best schedule for your semester, with at-a-glance schedule insights and comparisons coming soon!"
+            title="Penn Course Plan"
+            desc="Penn Course Plan combines course rating insights with an easy-to-use mock scheduling tool. Create the best schedule for your semester, with at-a-glance schedule insights for easy comparisons."
           />
           <ProductCard
             href="https://penncfa.com/"
