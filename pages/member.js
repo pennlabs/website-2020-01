@@ -10,7 +10,7 @@ const Member = ({ member }) => {
         style={{ paddingTop: '1.5rem', minHeight: 'calc(100vh - 196px)' }}
       >
         <div className="container" style={{ marginTop: 0 }}>
-          <a className="button is-rounded is-primary" href="/team">
+          <a className="button is-rounded is-primary" href="/members">
             <span className="icon" style={{ marginRight: '0.3rem' }}>
               <i className="fas fa-angle-double-left"></i>
             </span>
