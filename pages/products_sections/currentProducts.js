@@ -36,6 +36,7 @@ const products = [
       "Penn Mobile is the university's first official mobile app. On iOS and Android, Penn Mobile provides live dining hall menus and hours, laundry machine availability, study room booking, top campus news, and school support numbers.",
   },
   {
+    href: 'https://penncourseplan.com/',
     img: '/static/img/PCP.png',
     title: 'Penn Course Plan',
     desc:
