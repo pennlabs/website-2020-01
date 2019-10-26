@@ -1,0 +1,17 @@
+replicaCount: 1
+
+image:
+  repository: pennlabs/pennlabs.org
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  port: 3000
+
+ingress:
+  enabled: true
+  domain: org.upenn.club
+
+secrets:
+  enabled: false
+  secretEnv: ""

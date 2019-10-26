@@ -1,0 +1,15 @@
+FROM node:10-buster
+
+WORKDIR /app/
+
+# Copy project dependencies
+COPY package*.json /app/
+COPY yarn.lock /app/
+
+# Install project dependencies
+RUN yarn install --production=true
+
+# Copy project files
+COPY . /app/
+
+CMD ["yarn", "start"]
