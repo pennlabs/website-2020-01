@@ -31,11 +31,6 @@ jobs:
           paths:
             - ./node_modules
             - ~/.cache/yarn
-  build-and-publish:
-    jobs:
-      - docker/publish:
-          image: $IMAGE_NAME
-          tag: $CIRCLE_SHA1
   deploy:
     working_directory: ~/pennlabs
     docker:
@@ -49,11 +44,14 @@ workflows:
   version: 2.1
   build-and-deploy:
     jobs:
-      - build-and-publish:
+      - docker/publish:
+          image: $IMAGE_NAME
+          tag: $CIRCLE_SHA1
           context: docker-publish
           <<: *branch-filters
       - deploy:
           requires:
-            - publish
+            - build-and-publish
           context: k8s-deploy
           <<: *branch-filters
+
