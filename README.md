@@ -4,7 +4,7 @@ Official React-based website for Penn Labs' organizational information, member/a
 
 ## Installation
 1. Install dependencies using `npm install` in the project directory.
-2. Run application using `npm dev`.
+2. Run application using `npm run dev`.
 3. Access application at [localhost:3000](http://localhost:3000).
 
 ## Current Maintainers
