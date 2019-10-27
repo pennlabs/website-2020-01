@@ -1,15 +1,15 @@
-FROM node:10-buster
+FROM node:13.0.1-stretch-slim
 
 WORKDIR /app/
 
 # Copy project dependencies
 COPY package*.json /app/
-COPY yarn.lock /app/
 
 # Install project dependencies
-RUN yarn install --production=true
+RUN npm ci
 
 # Copy project files
 COPY . /app/
+RUN npm run build
 
-CMD ["yarn", "start"]
+CMD ["npm", "start"]

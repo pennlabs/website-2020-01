@@ -1,0 +1,15 @@
+# JS
+.eslintrc.js
+.prettierrc
+node_modules
+
+# Docker
+Dockerfile
+.dockerignore
+
+# git
+.circleci
+.git
+.gitignore
+.gitmodules
+**/*.md
