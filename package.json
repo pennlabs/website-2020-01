@@ -26,7 +26,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next",
+    "start": "next start",
     "heroku-postbuild": "next build"
   },
   "license": "MIT"
