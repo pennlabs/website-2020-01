@@ -9,12 +9,6 @@ branch-filters: &branch-filters
         - master
         - staging
 
-executors:
-  docker-publisher:
-    environment:
-      IMAGE_NAME: pennlabs/pennlabs.org
-    docker:
-      - image: circleci/buildpack-deps:buster
 jobs:
   test:
     working_directory: ~/pennlabs
@@ -44,14 +38,17 @@ workflows:
   version: 2.1
   build-and-deploy:
     jobs:
+      - test
       - docker/publish:
-          image: $IMAGE_NAME
+          requires:
+            - test
+          image: pennlabs/pennlabs.org
           tag: $CIRCLE_SHA1
           context: docker-publish
           <<: *branch-filters
       - deploy:
           requires:
-            - build-and-publish
+            - docker/publish
           context: k8s-deploy
           <<: *branch-filters
 
