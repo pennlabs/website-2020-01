@@ -28,40 +28,42 @@ const AlumniCard = props => {
         onMouseEnter={() => setHovering(true)}
         onMouseLeave={() => setHovering(false)}
       >
-        <a href={`/member?name=${website}`}>
-          <div className="card" style={{ borderRadius: 5, borderWidth: 0 }}>
-            <div className="card-content">
-              <h1
-                className="has-text-weight-bold"
-                style={{
-                  fontWeight: 500,
-                  fontSize: '1.5rem',
-                  marginBottom: 0,
-                  paddingBottom: 0,
-                }}
-              >
-                {student.name + " '" + graduation_year}
-              </h1>
-              <em style={{ fontSize: 14, paddingTop: 0, marginTop: 0 }}>
-                {' '}
-                {`${job} @ ${company}`}{' '}
-              </em>
-              <div style={{ display: 'flex', marginTop: 10 }}>
-                <p className="is-size-6 has-text-grey-light">Roles: </p>
-                <div className="tags" style={{ paddingLeft: 5 }}>
-                  {props.alum.roles.map(role => (
-                    <span
-                      className="tag is-rounded"
-                      style={{ backgroundColor: roleColors[`${role}`] }}
-                    >
-                      {role}
-                    </span>
-                  ))}
+        <Link href={`/member?name=${website}`}>
+          <a>
+            <div className="card" style={{ borderRadius: 5, borderWidth: 0 }}>
+              <div className="card-content">
+                <h1
+                  className="has-text-weight-bold"
+                  style={{
+                    fontWeight: 500,
+                    fontSize: '1.5rem',
+                    marginBottom: 0,
+                    paddingBottom: 0,
+                  }}
+                >
+                  {student.name + " '" + graduation_year}
+                </h1>
+                <em style={{ fontSize: 14, paddingTop: 0, marginTop: 0 }}>
+                  {' '}
+                  {`${job} @ ${company}`}{' '}
+                </em>
+                <div style={{ display: 'flex', marginTop: 10 }}>
+                  <p className="is-size-6 has-text-grey-light">Roles: </p>
+                  <div className="tags" style={{ paddingLeft: 5 }}>
+                    {props.alum.roles.map(role => (
+                      <span
+                        className="tag is-rounded"
+                        style={{ backgroundColor: roleColors[`${role}`] }}
+                      >
+                        {role}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </a>
+          </a>
+        </Link>
       </Square>
     </div>
   )

@@ -117,9 +117,11 @@ const Apply = () => (
                   </p>
 
                   <p>
-                    <a href="https://stackshare.io/penn-labs">
-                      Check out our stack
-                    </a>{' '}
+                    <Link href="https://stackshare.io/penn-labs">
+                      <a>
+                        Check out our stack
+                      </a>
+                    </Link>{' '}
                     to find out more about the frameworks and tools we use in
                     our products.
                   </p>

@@ -29,7 +29,9 @@ const Table = props => (
           <tr>
             <td>{entry.col1.text}</td>
             <td>
-              <a href={entry.col2.link}>{entry.col2.text}</a>
+              <Link href={entry.col2.link}>
+                <a>{entry.col2.text}</a>
+              </Link> 
             </td>
           </tr>
         ))}

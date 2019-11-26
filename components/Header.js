@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Link from 'next/link'
 
 import '../styles/styles.sass'
 
@@ -9,14 +10,16 @@ const Header = () => {
     <div>
       <nav className="navbar is-info" aria-label="main navigation">
         <div className="navbar-brand">
-          <a className="navbar-item" href="/">
-            <img
-              src="/static/img/beaker-only.png"
-              alt="Penn Labs"
-              width="auto"
-              height="100"
-            />
-          </a>
+          <Link href="/">
+            <a className="navbar-item">
+              <img
+                src="/static/img/beaker-only.png"
+                alt="Penn Labs"
+                width="auto"
+                height="100"
+              />
+            </a>
+          </Link>
           <button
             className="button navbar-burger is-info"
             onClick={() => setActive(!active)}
@@ -29,18 +32,26 @@ const Header = () => {
         <div className={active ? 'navbar-menu is-active' : 'navbar-menu'}>
           <div className="navbar-start"></div>
           <div className="navbar-end">
-            <a className="navbar-item" href="/members">
-              Members
-            </a>
-            <a className="navbar-item" href="/products">
-              Products
-            </a>
-            <a className="navbar-item" href="/resources">
-              Resources
-            </a>
-            <a className="navbar-item" href="https://medium.com/@pennappslabs">
-              Blog
-            </a>
+            <Link href="/members"> 
+              <a className="navbar-item">
+                Members
+              </a>
+            </Link>
+            <Link  href="/products">
+              <a className="navbar-item">
+                Products
+              </a>
+            </Link>
+            <Link href="/resources">
+              <a className="navbar-item" >
+                Resources
+              </a>
+            </Link>
+            <Link href="https://medium.com/@pennappslabs">
+              <a className="navbar-item">
+                Blog
+              </a>
+            </Link>
           </div>
         </div>
       </nav>

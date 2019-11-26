@@ -18,16 +18,20 @@ const Footer = () => (
           </span>{' '}
           by Penn Labs in Philadelphia.
         </p>
-        <a href="https://github.com/pennlabs/" style={{ marginRight: '1rem' }}>
-          <span>
-            <i className="fab fa-github"></i>
-          </span>
-        </a>
-        <a href="https://www.facebook.com/labsatpenn/">
-          <span>
-            <i className="fab fa-facebook-square"></i>
-          </span>
-        </a>
+        <Link href="https://github.com/pennlabs/">
+          <a style={{ marginRight: '1rem' }}>
+            <span>
+              <i className="fab fa-github"></i>
+            </span>
+          </a>
+        </Link>
+        <Link href="https://www.facebook.com/labsatpenn/">
+          <a>
+            <span>
+              <i className="fab fa-facebook-square"></i>
+            </span>
+          </a>
+        </Link>
       </div>
     </div>
   </footer>

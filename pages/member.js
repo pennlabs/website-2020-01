@@ -2,6 +2,8 @@ import Layout from '../components/Layout'
 import Bio from './member_sections/bio.js'
 import fetch from 'isomorphic-fetch'
 
+import Link from 'next/link'
+
 const Member = ({ member }) => {
   return (
     <Layout>
@@ -10,12 +12,14 @@ const Member = ({ member }) => {
         style={{ paddingTop: '1.5rem', minHeight: 'calc(100vh - 196px)' }}
       >
         <div className="container" style={{ marginTop: 0 }}>
-          <a className="button is-rounded is-primary" href="/members">
-            <span className="icon" style={{ marginRight: '0.3rem' }}>
-              <i className="fas fa-angle-double-left"></i>
-            </span>
-            Back to team
-          </a>
+          <Link href="/members">
+            <a className="button is-rounded is-primary">
+              <span className="icon" style={{ marginRight: '0.3rem' }}>
+                <i className="fas fa-angle-double-left"></i>
+              </span>
+              Back to team
+            </a>
+          </Link>
           <br />
           <br />
           <Bio member={member} />

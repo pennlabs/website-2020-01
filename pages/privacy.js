@@ -1,5 +1,7 @@
 import Layout from '../components/Layout'
 
+import Link from 'next/link'
+
 const data = [
   {
     product: 'Penn Mobile iOS',
@@ -31,7 +33,7 @@ const Privacy = () => (
         {data.map(({ product, link }) => (
           <p key={product}>
             <strong>{product}:&nbsp;</strong>
-            <a href={link}>Privacy Policy</a>; this Application collects some
+            <Link href={link}><a>Privacy Policy</a></Link>; this Application collects some
             Personal Data from its Users.
           </p>
         ))}
