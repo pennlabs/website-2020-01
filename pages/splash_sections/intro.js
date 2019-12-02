@@ -1,6 +1,8 @@
 import { Spring, config } from 'react-spring'
 import Link from 'next/link'
 
+const FADE_IN_DELAY = 100
+
 const Intro = props => (
   <div className="section">
     <div className="container">
@@ -15,7 +17,7 @@ const Intro = props => (
           <Spring
             from={{ opacity: 0 }}
             to={{ opacity: 1 }}
-            delay={500}
+            delay={FADE_IN_DELAY}
             config={config.molasses}
           >
             {props => (
@@ -38,7 +40,7 @@ const Intro = props => (
           <Spring
             from={{ opacity: 0 }}
             to={{ opacity: 1, borderColor: '#209CEE', color: '#209CEE' }}
-            delay={500}
+            delay={FADE_IN_DELAY}
             config={config.molasses}
           >
             {props => (
@@ -75,7 +77,7 @@ const Intro = props => (
           <Spring
             from={{ opacity: 0 }}
             to={{ opacity: 1 }}
-            delay={500}
+            delay={FADE_IN_DELAY}
             config={config.molasses}
           >
             {props => (
