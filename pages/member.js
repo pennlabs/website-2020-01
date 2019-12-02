@@ -31,7 +31,7 @@ const Member = ({ member }) => {
 
 Member.getInitialProps = async query => {
   const res = await fetch(
-    'http://platform.pennlabs.org/org/members/?format=json'
+    'https://platform.pennlabs.org/org/members/?format=json'
   )
   const members = await res.json()
   var member
