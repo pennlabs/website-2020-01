@@ -24,9 +24,9 @@
     "url": "^0.11.0"
   },
   "scripts": {
-    "dev": "next",
-    "build": "next build",
     "start": "next start",
+    "build": "next build",
+    "dev": "next",
     "heroku-postbuild": "next build"
   },
   "license": "MIT"
