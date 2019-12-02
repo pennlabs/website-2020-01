@@ -1,5 +1,7 @@
 import Layout from '../components/Layout'
 
+import Link from 'next/link'
+
 const Resources = props => (
   <Layout>
     <div className="container" style={{ marginTop: '5rem' }}>
@@ -43,16 +45,19 @@ const Resources = props => (
                   </div>
                 </div>
                 <div className="content">
-                  <a
-                    href={resource.demo}
-                    style={{ marginRight: '0.2rem' }}
-                    className="button"
-                  >
-                    Demo
-                  </a>
-                  <a href={resource.documentation} className="button">
-                    Documentation
-                  </a>
+                  <Link href={resource.demo}>
+                    <a
+                      style={{ marginRight: '0.2rem' }}
+                      className="button"
+                    >
+                      Demo
+                    </a>
+                  </Link>
+                  <Link href={resource.documentation}>
+                    <a className="button">
+                      Documentation
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>

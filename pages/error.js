@@ -14,8 +14,8 @@ const Error = () => (
                 Oops... page not found :(
               </h3>
               <p>
-                Go back to <a href="/">home</a> or{' '}
-                <a href="/contact">contact us</a> if you think this is a
+                Go back to <Link href="/"><a>home</a></Link> or{' '}
+                <Link href="/contact"><a>contact us</a></Link> if you think this is a
                 mistake.
               </p>
             </div>

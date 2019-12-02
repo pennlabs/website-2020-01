@@ -47,7 +47,7 @@ const Members = ({ teams }) => (
 )
 
 Members.getInitialProps = async ({}) => {
-  const res = await fetch('http://platform.pennlabs.org/org/teams/?format=json')
+  const res = await fetch('https://platform.pennlabs.org/org/teams/?format=json')
   const teams = await res.json()
   return { teams }
 }

@@ -47,13 +47,14 @@ const Data = props => (
                   </div>
                 </div>
                 <div className="content">
-                  <a
-                    href={experiment.demo}
-                    style={{ marginRight: '0.2rem' }}
-                    className="button"
-                  >
-                    Coming Soon
-                  </a>
+                  <Link href={experiment.demo}>
+                    <a
+                      style={{ marginRight: '0.2rem' }}
+                      className="button"
+                    >
+                      Coming Soon
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>

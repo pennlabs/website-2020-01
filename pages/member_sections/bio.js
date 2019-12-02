@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 var Converter = require('react-showdown').Converter
 var rConverter = new Converter()
 
@@ -27,29 +29,35 @@ const Bio = props => (
           <nav className="level is-mobile">
             <div className="level-left">
               {props.member.github ? (
-                <a className="level-item" href={props.member.github}>
-                  <span className="icon">
-                    <i className="fab fa-github"></i>
-                  </span>
-                </a>
+                <Link href={props.member.github}>
+                  <a className="level-item">
+                    <span className="icon">
+                      <i className="fab fa-github"></i>
+                    </span>
+                  </a>
+                </Link> 
               ) : (
                 <div></div>
               )}
               {props.member.linkedin ? (
-                <a className="level-item" href={props.member.linkedin}>
-                  <span className="icon">
-                    <i className="fab fa-linkedin"></i>
-                  </span>
-                </a>
+                <Link href={props.member.linkedin}>
+                  <a className="level-item" >
+                    <span className="icon">
+                      <i className="fab fa-linkedin"></i>
+                    </span>
+                  </a>
+                </Link>
               ) : (
                 <div></div>
               )}
               {props.member.website ? (
-                <a className="level-item" href={props.member.website}>
-                  <span className="icon">
-                    <i className="fas fa-user"></i>
-                  </span>
-                </a>
+                <Link href={props.member.website}>
+                  <a className="level-item">
+                    <span className="icon">
+                      <i className="fas fa-user"></i>
+                    </span>
+                  </a>
+                </Link>
               ) : (
                 <div></div>
               )}

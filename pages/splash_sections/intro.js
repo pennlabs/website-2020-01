@@ -1,4 +1,5 @@
 import { Spring, config } from 'react-spring'
+import Link from 'next/link'
 
 const Intro = props => (
   <div className="section">
@@ -43,14 +44,15 @@ const Intro = props => (
             {props => (
               <div style={props}>
                 {/* <a className="button is-success is-medium" href="/apply" style={{marginRight: "0.5rem"}}>Join Us <span className="icon is-small" style={{marginLeft: "0.1rem"}}><i className="fa fa-angle-double-right"></i></span> </a> */}
-                <a
-                  href="/products"
-                  style={{ marginRight: '0.5rem' }}
-                  className="button is-info is-medium"
-                >
-                  {' '}
-                  View Products{' '}
-                </a>
+                <Link href="/products">
+                  <a
+                    style={{ marginRight: '0.5rem' }}
+                    className="button is-info is-medium"
+                  >
+                    {' '}
+                    View Products{' '}
+                  </a>
+                </Link>
                 <a
                   href="https://github.com/pennlabs"
                   className="button is-light is-medium"
