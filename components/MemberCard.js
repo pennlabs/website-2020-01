@@ -18,7 +18,7 @@ const MemberCard = ({ url, photo, student, roles }) => {
         onMouseEnter={() => setHovering(true)}
         onMouseLeave={() => setHovering(false)}
       >
-        <Link  href={'/member?name=' + url}>
+        <Link href={'/member/[member]'} as={`/member/${url}`}>
           <a>
             <div className="card" style={{ borderRadius: 5, borderWidth: 0 }}>
               <div className="card-image">
