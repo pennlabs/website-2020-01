@@ -1,5 +1,5 @@
-import Layout from '../components/Layout'
-import Bio from './member_sections/bio.js'
+import Layout from '../../components/Layout'
+import Bio from '../member_sections/bio.js'
 import fetch from 'isomorphic-fetch'
 
 import Link from 'next/link'
@@ -29,7 +29,7 @@ const Member = ({ member }) => {
   )
 }
 
-Member.getInitialProps = async query => {
+Member.getInitialProps = async ({ query }) => {
   const res = await fetch(
     'https://platform.pennlabs.org/org/members/?format=json'
   )
@@ -37,7 +37,7 @@ Member.getInitialProps = async query => {
   var member
 
   members.forEach(item => {
-    if (item.url === query.query.name) {
+    if (item.url === query.member) {
       member = item
     }
   })
