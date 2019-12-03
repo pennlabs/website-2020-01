@@ -1,6 +1,6 @@
 import Layout from '../components/Layout'
 
-import CurrentProducts from './products_sections/currentProducts'
+import CurrentProducts from '../components/products_sections/currentProducts'
 
 const Products = () => (
   <Layout>

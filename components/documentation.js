@@ -1,5 +1,6 @@
 import Layout from '../components/Layout'
 import Table from '../components/Table'
+import Link from 'next/link'
 
 const Guides = () => (
   <Layout>

@@ -1,5 +1,5 @@
 import Layout from '../../components/Layout'
-import Bio from '../member_sections/bio.js'
+import Bio from '../../components/member_sections/bio'
 import fetch from 'isomorphic-fetch'
 
 import Link from 'next/link'
