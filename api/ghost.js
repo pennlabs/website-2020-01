@@ -1,9 +1,16 @@
 import GhostContentAPI from '@tryghost/content-api'
+import getConfig from 'next/config'
+
+const {
+  publicRuntimeConfig: { GHOST_API_KEY },
+} = getConfig()
+
+console.log('DAVISDEBUG', getConfig())
 
 // Create API instance with site credentials
 const api = new GhostContentAPI({
   url: 'https://ghost.pennlabs.org',
-  key: process.env.GHOST_API_KEY,
+  key: GHOST_API_KEY,
   version: 'v3',
 })
 
