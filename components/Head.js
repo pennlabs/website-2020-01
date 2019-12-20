@@ -36,24 +36,32 @@ export default ({
       content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
     />
 
-    <title>{title}</title>
+    <title key="title">{title}</title>
 
     <meta name="theme-color" content="#ffffff" />
-    <meta name="description" content={description} />
+    <meta name="description" content={description} key="description" />
     <meta name="keywords" content={keywords} />
     <meta name="author" content="Penn Labs <contact@pennlabs.org>" />
 
-    <meta property="og:title" content={title} />
+    <meta property="og:title" content={title} key="og-title" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content={url} />
-    <meta property="og:image" content={image} />
-    <meta property="og:image:alt" content={imageAlt} />
+    <meta property="og:url" content={url} key="url" />
+    <meta property="og:image" content={image} key="image" />
+    <meta property="og:image:alt" content={imageAlt} key="image-alt" />
 
     <meta property="twitter:site" content="@pennlabs" />
-    <meta property="twitter:description" content={description} />
-    <meta property="twitter:title" content={title} />
-    <meta property="twitter:image" content={image} />
-    <meta property="twitter:image:alt" content={imageAlt} />
+    <meta
+      property="twitter:description"
+      content={description}
+      key="twitter-description"
+    />
+    <meta property="twitter:title" content={title} key="twitter-title" />
+    <meta property="twitter:image" content={image} key="twitter-image" />
+    <meta
+      property="twitter:image:alt"
+      content={imageAlt}
+      key="twitter-image-alt"
+    />
     <meta property="twitter:card" content="summary" />
 
     <link rel="stylesheet" href="styles/style.css" />

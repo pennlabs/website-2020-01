@@ -5,8 +5,6 @@ const {
   publicRuntimeConfig: { GHOST_API_KEY },
 } = getConfig()
 
-console.log('DAVISDEBUG', getConfig())
-
 // Create API instance with site credentials
 const api = new GhostContentAPI({
   url: 'https://ghost.pennlabs.org',
