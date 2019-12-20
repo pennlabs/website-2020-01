@@ -1,6 +1,6 @@
 import Layout from '../components/Layout'
 import Link from 'next/link'
-import { getPostList } from '../api/posts'
+import { getPostList } from '../api/ghost'
 
 const Blog = ({ posts }) => (
   <Layout>
