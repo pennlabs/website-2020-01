@@ -2,11 +2,11 @@ import Layout from '../../../components/Layout'
 import { getPost } from '../../../api/ghost'
 import Link from 'next/link'
 import Head from 'next/head'
-import { postStyle } from './_blog_styles'
 
 const Post = ({ post }) => (
   <Layout>
     <Head>
+      <link rel="stylesheet" href="/static/css/blog-post.css" />
       {post.feature_image ? (
         <>
           <meta property="og:image" content={post.feature_image} key="image" />
@@ -50,7 +50,6 @@ const Post = ({ post }) => (
               className="post-content"
               dangerouslySetInnerHTML={{
                 __html: `
-${postStyle}
 ${post.codeinjection_head || ''}
 ${post.html}
 ${post.codeinjection_foot || ''}
