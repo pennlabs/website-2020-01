@@ -2,8 +2,12 @@ import Layout from '../../../components/Layout'
 import { getPost } from '../../../api/ghost'
 import Link from 'next/link'
 import Head from 'next/head'
+import Error from 'next/error'
 
 const Post = ({ post }) => {
+  if (!post) {
+    return <Error statusCode={404} />
+  }
   let seoProps = {
     title: post.title,
     description: post.custom_excerpt || post.excerpt,
@@ -11,7 +15,7 @@ const Post = ({ post }) => {
   }
   if (post.feature_image) {
     seoProps.image = post.feature_image
-    seoProps.imageAlt = title
+    seoProps.imageAlt = post.title
   }
   return (
     <Layout {...seoProps}>

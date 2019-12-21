@@ -1,13 +1,18 @@
-/* .post-full-content h1,
-.post-full-content h2,
-.post-full-content h3,
-.post-full-content h4,
-.post-full-content h5,
-.post-full-content h6,
-.post-full-content ul,
-.post-full-content ol {
-  all: revert;
-} */
+:root {
+  /* Colours */
+  --blue: #3eb0ef;
+  --green: #a4d037;
+  --purple: #ad26b4;
+  --yellow: #fecd35;
+  --red: #f05230;
+  --darkgrey: #15171a;
+  --midgrey: #738a94;
+  --lightgrey: #c5d2d9;
+  --whitegrey: #e5eff5;
+  --pink: #fa3a57;
+  --brown: #a3821a;
+  --darkmode: color(var(--darkgrey) l(+2%));
+}
 
 .kg-bookmark-card {
   width: 100%;
@@ -136,6 +141,9 @@
   .post-full-content h4 + figure {
     margin-top: 0.9em;
   }
+  .post-container {
+    width: 90%;
+  }
 }
 
 .post-container {
@@ -173,6 +181,7 @@
     order: 1;
     min-height: 160px;
     width: 100%;
+    max-width: 100%;
   }
 
   .kg-bookmark-thumbnail img {
@@ -182,9 +191,8 @@
   .kg-bookmark-content {
     order: 2;
   }
-
-  .post-container {
-    width: 100%;
+  .post-full-content figure {
+    margin: 0 !important;
   }
 }
 
