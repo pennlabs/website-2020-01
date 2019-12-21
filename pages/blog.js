@@ -15,7 +15,7 @@ const Blog = ({ posts }) => (
                 </Link>
               </strong>{' '}
               - By {post.authors.map(a => a.name).join(', ')}
-              <p style={{ width: '80ch' }}>
+              <p style={{ maxWidth: '80ch' }}>
                 {post.custom_excerpt || post.excerpt}
               </p>
               <br />

@@ -39,13 +39,13 @@ const Post = ({ post }) => (
       </Link>
 
       <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <div style={{ width: '50%' }}>
+        <div className="post-container">
           <h1 className="title is-2">{post.title}</h1>
           <img
             style={{ borderRadius: '2px', margin: '0.8em 0 2.3em' }}
             src={post.feature_image}
           />
-          <div className="post-full-content">
+          <div className="post-full-content content">
             <div
               className="post-content"
               dangerouslySetInnerHTML={{
