@@ -1,27 +1,14 @@
-import Layout from '../components/Layout'
 import Link from 'next/link'
+
 import { getPostList } from '../api/ghost'
+import Layout from '../components/Layout'
+import PostList from '../components/PostList'
 
 const Blog = ({ posts }) => (
   <Layout>
     <section className="section">
       <div className="container">
-        <ul>
-          {posts.map(post => (
-            <li key={post.id}>
-              <strong>
-                <Link href="/blog/post/[slug]" as={`/blog/post/${post.slug}`}>
-                  <a>{post.title}</a>
-                </Link>
-              </strong>{' '}
-              - By {post.authors.map(a => a.name).join(', ')}
-              <p style={{ maxWidth: '80ch' }}>
-                {post.custom_excerpt || post.excerpt}
-              </p>
-              <br />
-            </li>
-          ))}
-        </ul>
+        <PostList posts={posts} />
       </div>
     </section>
   </Layout>
@@ -29,7 +16,9 @@ const Blog = ({ posts }) => (
 
 Blog.getInitialProps = async () => {
   const posts = await getPostList()
-  return { posts }
+  return {
+    posts,
+  }
 }
 
 export default Blog
