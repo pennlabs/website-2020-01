@@ -33,8 +33,10 @@ const Privacy = () => (
         {data.map(({ product, link }) => (
           <p key={product}>
             <strong>{product}:&nbsp;</strong>
-            <Link href={link}><a>Privacy Policy</a></Link>; this Application collects some
-            Personal Data from its Users.
+            <Link href={link}>
+              <a>Privacy Policy</a>
+            </Link>
+            ; this Application collects some Personal Data from its Users.
           </p>
         ))}
         <br />

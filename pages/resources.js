@@ -46,17 +46,12 @@ const Resources = props => (
                 </div>
                 <div className="content">
                   <Link href={resource.demo}>
-                    <a
-                      style={{ marginRight: '0.2rem' }}
-                      className="button"
-                    >
+                    <a style={{ marginRight: '0.2rem' }} className="button">
                       Demo
                     </a>
                   </Link>
                   <Link href={resource.documentation}>
-                    <a className="button">
-                      Documentation
-                    </a>
+                    <a className="button">Documentation</a>
                   </Link>
                 </div>
               </div>

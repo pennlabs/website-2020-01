@@ -48,10 +48,7 @@ const Data = props => (
                 </div>
                 <div className="content">
                   <Link href={experiment.demo}>
-                    <a
-                      style={{ marginRight: '0.2rem' }}
-                      className="button"
-                    >
+                    <a style={{ marginRight: '0.2rem' }} className="button">
                       Coming Soon
                     </a>
                   </Link>
