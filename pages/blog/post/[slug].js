@@ -19,9 +19,6 @@ const Post = ({ post }) => {
   }
   return (
     <Layout {...seoProps}>
-      <Head>
-        <link rel="stylesheet" href="/static/css/blog-post.css" />
-      </Head>
       <section className="section">
         <Link href="/blog">
           <a>Back to blog</a>

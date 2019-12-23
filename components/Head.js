@@ -35,6 +35,7 @@ export default ({
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
     />
+    <link rel="stylesheet" href="/static/css/blog-post.css" />
 
     <title key="title">{title}</title>
 
