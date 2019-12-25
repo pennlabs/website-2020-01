@@ -8,12 +8,18 @@ import PostList from '../../../components/PostList'
 
 const TagPage = ({tag, posts}) => (
     <Layout>
+      <section className="hero is-info">
+        <div className="hero-body">
+          <div className="container">
+            <h1 className="title">{tag.name}</h1>
+            <h2 className="subtitle">{tag.description}</h2>
+          </div>
+        </div>
+      </section>
       <section className = 'section'>
         <Link href = '/blog'>
           <a>Back to blog</a>
         </Link>
-        <h1 className='title is-1'>{tag.name}</h1>
-        <p>{tag.description}</p>
         <PostList posts={posts} showTags={false} />
       </section>
   </Layout>

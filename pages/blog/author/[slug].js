@@ -8,12 +8,18 @@ import PostList from '../../../components/PostList'
 
 const AuthorPage = ({author, posts}) => (
     <Layout>
+      <section className="hero is-info">
+        <div className="hero-body">
+          <div className="container">
+            <h1 className="title">{author.name}</h1>
+            <h2 className="subtitle">{author.bio}</h2>
+          </div>
+        </div>
+      </section>
       <section className = 'section'>
         <Link href = '/blog'>
           <a>Back to blog</a>
         </Link>
-        <h1 className='title is-1'>{author.name}</h1>
-        <p>{author.bio}</p>
         <PostList posts={posts} showAuthor={false} />
       </section>
   </Layout>
