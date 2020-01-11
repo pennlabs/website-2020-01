@@ -2,7 +2,7 @@
 version: 2.1
 orbs:
   docker: circleci/docker@0.5.19
-  helm-tools: pennlabs/helm-tools@0.1.3
+  helm-tools: pennlabs/helm-tools@0.1.4
 
 branch-filters: &branch-filters
   filters:
