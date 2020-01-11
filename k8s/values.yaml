@@ -5,10 +5,8 @@ applications:
   - name: react
     image: pennlabs/website
     secret: website
+    port: 3000
     ingress:
       hosts:
         - host: pennlabs.org
           paths: ["/"]
-    extraEnv:
-      - name: PORT
-        value: 80
