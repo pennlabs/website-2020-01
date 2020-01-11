@@ -1,9 +1,9 @@
 {
-  "name": "pennlabs.org",
+  "name": "website",
   "private": false,
   "description": "Website for Penn Labs",
   "version": "1.0.0",
-  "author": "Penn Labs <info@pennlabs.org>",
+  "author": "Penn Labs <contact@pennlabs.org>",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
     "bulma": "^0.7.2",

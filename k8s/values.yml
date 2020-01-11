@@ -1,0 +1,14 @@
+deploy_version: 0.1.8
+image_tag: latest
+
+applications:
+  - name: react
+    image: pennlabs/website
+    secret: website
+    ingress:
+      hosts:
+        - host: pennlabs.org
+          paths: ["/"]
+    extraEnv:
+      - name: PORT
+        value: 80
