@@ -118,7 +118,7 @@ const Apply = () => (
               <br />
               <br /> Come out to our info sessions to learn more
               and meet our members! And feel free to reach out to
-              contact@pennlabs.org anytime.
+              <a href="mailto:contact@pennlabs.org"> contact@pennlabs.org</a> anytime.
               <div className="content">
                 <br />
                 <h4>Info Sessions</h4>
