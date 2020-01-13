@@ -32,6 +32,11 @@ const Header = () => {
         <div className={active ? 'navbar-menu is-active' : 'navbar-menu'}>
           <div className="navbar-start"></div>
           <div className="navbar-end">
+            <Link href="/apply"> 
+              <a className="navbar-item">
+                Apply
+              </a>
+            </Link>
             <Link href="/members"> 
               <a className="navbar-item">
                 Members
