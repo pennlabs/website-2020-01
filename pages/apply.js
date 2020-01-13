@@ -8,7 +8,10 @@ const Apply = () => (
         <div className="container">
           <div className="columns">
             <div className="column">
-              <h1 className="title" style={{ color: 'azure', fontSize: '2.8rem' }}>
+              <h1
+                className="title"
+                style={{ color: 'azure', fontSize: '2.8rem' }}
+              >
                 Thanks for your interest in Penn Labs!
               </h1>
               <h2 className="subtitle">
@@ -119,9 +122,7 @@ const Apply = () => (
 
                   <p>
                     <Link href="https://stackshare.io/penn-labs">
-                      <a>
-                        Check out our stack
-                      </a>
+                      <a>Check out our stack</a>
                     </Link>{' '}
                     to find out more about the frameworks and tools we use in
                     our products.
