@@ -8,13 +8,13 @@ const info = {
   year: '2020',
   sessions: [
     {
-      'location': 'JMHH XXX',
-      'date': 'Thursday 1/25',
+      'location': 'JMHH 250',
+      'date': 'Thursday 1/23',
       'time': '6-7pm'
     },
     {
-      'location': 'JMHH XXX',
-      'date': 'Monday 1/25',
+      'location': 'JMHH 250',
+      'date': 'Monday 1/27',
       'time': '6-7pm'
     }
   ],
