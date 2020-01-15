@@ -1,24 +1,67 @@
 import Layout from '../components/Layout'
 import Link from 'next/link'
 
+const info = {
+  isOpen: true,
+  applicationUrl: 'https://airtable.com/shrvvvrVR4E2VZDUo',
+  season: 'Spring',
+  year: '2020',
+  sessions: [
+    {
+      'location': 'JMHH 250',
+      'date': 'Thursday 1/23',
+      'time': '6-7pm'
+    },
+    {
+      'location': 'JMHH 250',
+      'date': 'Monday 1/27',
+      'time': '6-7pm'
+    }
+  ],
+  writtenDueDate: ''
+}
+
+const CallToAction = ({season, year, applicationUrl}) => (
+  <div>
+    <h1 className="title" style={{ color: 'azure', fontSize: '2.8rem' }}>
+      Come build with us!
+    </h1>
+    <h2 className="subtitle">
+      Join the Penn Labs community this {season}.
+    </h2>
+    <a class="button is-large is-info is-rounded is-inverted is-focused" 
+        href={applicationUrl}>
+          Apply Now
+          <span class="icon is-small" style={{marginLeft: "0.1rem"}}>
+          <i class="fa fa-angle-double-right"></i></span>
+    </a>
+  </div>
+)
+
+const ComeBackLater = ({season, year}) => (
+  <div>
+    <h1 className="title" style={{ color: 'azure', fontSize: '2.8rem' }}>
+      Thanks for your interest in Penn Labs!
+    </h1>
+    <h2 className="subtitle">
+      We're no longer accepting {season} {year} applications.
+    </h2>
+  </div>
+)
+
 const Apply = () => (
   <Layout>
     <section className="hero is-info is-small">
       <div className="hero-body">
         <div className="container">
           <div className="columns">
-            <div className="column">
-              <h1 className="title" style={{ color: 'azure', fontSize: '2.8rem' }}>
-                Thanks for your interest in Penn Labs!
-              </h1>
-              <h2 className="subtitle">
-                We're no longer accepting Fall 2019 applications.
-              </h2>
+            <div className="column" style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
+              {info.isOpen ? <CallToAction {...info} /> : <ComeBackLater {...info} />}
             </div>
             <div className="column">
               <figure className="image" style={{ width: '100%' }}>
                 <img
-                  src="https://pennlabs-assets.s3.amazonaws.com/Penn+Labs+team+2-1.jpg"
+                  src="https://pennlabs.org/static/img/1labs-group.jpg"
                   style={{ borderRadius: '5px' }}
                 ></img>
               </figure>
@@ -73,10 +116,18 @@ const Apply = () => (
               evaluate through the technical challenge phase of the application
               process.
               <br />
-              <br /> Come out to our info sessions <b>Tuesday 9/3</b> and{' '}
-              <b>Thursday 9/5</b> from <b>6-7pm in JMHH 340</b> to learn more
+              <br /> Come out to our info sessions to learn more
               and meet our members! And feel free to reach out to
-              contact@pennlabs.org anytime.
+              <a href="mailto:contact@pennlabs.org"> contact@pennlabs.org</a> anytime.
+              <div className="content">
+                <br />
+                <h4>Info Sessions</h4>
+                <ul>
+                  {info.sessions.map(session => (
+                  <li>When: <b>{session.date} {session.time}</b> <br />Where: <b>{session.location}</b></li>
+                  ))}
+                </ul>
+              </div>
             </p>
           </div>
         </div>
@@ -111,6 +162,7 @@ const Apply = () => (
                     <ul>
                       <li>Back-end web</li>
                       <li>Front-end web</li>
+                      <li>DevOps</li>
                       <li>Fullstack web</li>
                       <li>Android</li>
                       <li>iOS</li>
