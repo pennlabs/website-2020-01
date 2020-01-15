@@ -162,6 +162,7 @@ const Apply = () => (
                     <ul>
                       <li>Back-end web</li>
                       <li>Front-end web</li>
+                      <li>DevOps</li>
                       <li>Fullstack web</li>
                       <li>Android</li>
                       <li>iOS</li>
