@@ -2,7 +2,7 @@ import Layout from '../components/Layout'
 import Link from 'next/link'
 
 const info = {
-  isOpen: true,
+  isOpen: false,
   applicationUrl: 'https://airtable.com/shrvvvrVR4E2VZDUo',
   season: 'Spring',
   year: '2020',
